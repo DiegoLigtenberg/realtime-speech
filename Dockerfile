@@ -47,4 +47,4 @@ RUN python3 -m pip install -r requirements2.txt
 
 ENTRYPOINT ["streamlit", "run"]
 
-CMD ["./src/main2.py"]
+CMD ["./src/main.py"]
