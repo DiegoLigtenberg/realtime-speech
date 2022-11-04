@@ -1,0 +1,42 @@
+# models that generate text from audio data.
+model_task: # model task
+  speech_to_text:
+    model_name: # model name
+      wav2vec:
+        model_size: # model size
+          base:
+            name: facebook/wav2vec2-base-960h
+            url: https://huggingface.co/facebook/wav2vec2-base-960h
+            year: 2020        
+      whisper:
+        model_size:
+          tiny:
+            name: openai/whisper-tiny
+            url: https://huggingface.co/openai/whisper-tiny
+            year: 2022
+          base:
+            name: openai/whisper-base
+            url: https://huggingface.co/openai/whisper-base
+            year: 2022
+          medium:
+            name: openai/whisper-medium
+            url: https://huggingface.co/openai/whisper-medium
+            year: 2022
+        
+  # models that generate summaries from text data.
+  text_to_summary:
+    model_name:
+      bert:
+        model_size: 
+          large:
+            name: facebook/bart-large-cnn
+            url: https://huggingface.co/facebook/bart-large-cnn
+            year: 2019
+            fbs: 31231
+
+
+
+
+
+
+

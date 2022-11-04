@@ -1,0 +1,7 @@
+INSERT Hugging face models
+1) Insert tokenizer model name
+2) Insert space
+3) Insert huggingface link to model name
+
+speech_to_text
+facebook/wav2vec2-base-960h https://huggingface.co/facebook/wav2vec2-base-960h

@@ -1,0 +1,29 @@
+# models that generate text from audio data.
+wav2vec:
+  task: text_to_speech
+  url: https://huggingface.co/facebook/wav2vec2-base-960h
+
+wav2vec2:
+  task: text_to_speech
+  url: https://huggingface.co/yongjian/wav2vec2-large-a
+
+whisper_tiny:
+  task: text_to_speech
+  url: https://huggingface.co/openai/whisper-tiny
+  description: "this is the smallest whisper model that will be used for cloud deployment"
+  year: 2022
+
+whisper_base:
+  task: text_to_speech
+  url: https://huggingface.co/openai/whisper-base
+  year: 2022
+
+whisper_medium:
+  task: text_to_speech
+  url: https://huggingface.co/openai/whisper-medium
+  year: 2022
+
+bart_large:
+  task: text_to_summary
+  url: https://huggingface.co/facebook/bart-large-cnn
+  year: 2022
