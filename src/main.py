@@ -29,7 +29,7 @@ with st.sidebar.form("input_form"):
     summary = st.checkbox("summarize")
     if summary:
         min_sum = st.number_input("Minimum words in the summary", min_value=1, step=1)
-        max_sum = st.number_input("Maximum words in the summary", min_value=2, step=1)
+        max_sum = min(min_sum,st.number_input("Maximum words in the summary", min_value=2, step=1))
     st.form_submit_button(label="Save settings")
 with st.sidebar.form("save settings"):
     transcribe = st.form_submit_button(label="Transcribe!")

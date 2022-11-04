@@ -1,15 +1,18 @@
 # For more information, please refer to https://aka.ms/vscode-docker-python
-FROM python:3.8
+# FROM python:3.8
+# [27-10 16:00] Erik Willems
+FROM jrottenberg/ffmpeg:4.1-ubuntu
+
 
 #TODO pip install 
 #TODO python install 
 #TODO Ubuntu update
-# RUN apt-get -y update
-# RUN apt-get -y install
+RUN apt-get -y update
+RUN apt-get -y install
 
-# # installing pip3 & python 3
-# RUN apt install -y python3-pip --upgrade
-# RUN apt install -y python3
+# installing pip3 & python 3
+RUN apt install -y python3-pip --upgrade
+RUN apt install -y python3
 
 
 
@@ -38,12 +41,12 @@ ADD . /src
 # RUN apt-get -y install libasound-dev libportaudio2 libportaudiocpp0 portaudio19-dev -y
 # RUN pip install -y --upgrade pip
 # RUN python3 -m pip install pyaudio
-RUN apt-get update \
-        && apt-get install libportaudio2 libportaudiocpp0 portaudio19-dev libasound-dev libsndfile1-dev -y \
-        && pip3 install pyaudio
-RUN python3 -m pip install streamlit-webrtc
+# RUN apt-get update \
+#         && apt-get install libportaudio2 libportaudiocpp0 portaudio19-dev libasound-dev libsndfile1-dev -y \
+#         && pip3 install pyaudio
+# RUN python3 -m pip install streamlit-webrtc
 
-RUN python3 -m pip install -r requirements2.txt
+RUN python3 -m pip install -r requirements.txt
 
 ENTRYPOINT ["streamlit", "run"]
 
