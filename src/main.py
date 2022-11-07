@@ -52,7 +52,7 @@ if transcribe:
             st.error("Please upload a file")
 
 if "transcription" in st.session_state:
-    st.session_state.transcription.whisper()
+    # st.session_state.transcription.whisper() # -> it is already running in models.py
 
     # create two columns to separate page and youtube video
     transcription_col, media_col = st.columns(2, gap="large")
