@@ -39,6 +39,15 @@ with st.sidebar.form("save settings"):
    
    
 if transcribe:
+
+    # remove app if it is already running
+    dir = 'output'
+    if len(os.listdir(dir)) > 1: 
+        for f in os.listdir(dir):
+            os.remove(os.path.join(dir, f))
+            st.write("SOMEONE ELSE IS ALREADY USING THIS APP. PLEASE WAIT 2-3 minutes")
+        
+
     if input_type == "YouTube":
         if youtube_url and youtube_url.startswith("http"):
             model = BagOfModels.load_model(whisper_model,**vars(args))
@@ -98,9 +107,11 @@ if "transcription" in st.session_state:
         st.session_state.transcription.clear_folder()
 
     except:
+        # bugg with multiusers and not deleting audio file TODO
         st.session_state.transcription.clear_all()
-        st.write("SOMEONE ELSE IS ALREADY USING THIS APP. PLEASE WAIT")
-        
+
+    
 else:
+    # bugg with multiusers and not deleting audio file TODO
     st.session_state.transcription.clear_all()
 
