@@ -108,7 +108,7 @@ class SoundToText():
             self.audio_path = f"output/audio{self.timestr}.wav"            
 
         model = whisper.load_model("base")
-        self.raw_output = model.transcribe(self.audio_path,verbose=True,fp16=False)
+        self.raw_output = model.transcribe(self.audio_path,verbose=True,fp16=False) #float point 16 not supported for cpu
 
         self.text = self.raw_output["text"]
         self.language = self.raw_output["language"]
