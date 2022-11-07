@@ -45,7 +45,7 @@ if transcribe:
     if len(os.listdir(dir)) > 1: 
         for f in os.listdir(dir):
             os.remove(os.path.join(dir, f))
-            st.write("SOMEONE ELSE IS ALREADY USING THIS APP. PLEASE WAIT 2-3 minutes")
+        st.write("SOMEONE ELSE IS ALREADY USING THIS APP. PLEASE WAIT 2-3 minutes")
         
 
     if input_type == "YouTube":
