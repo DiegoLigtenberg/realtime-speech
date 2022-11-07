@@ -92,7 +92,7 @@ class SoundToText():
     def wav2vec2(self,size):
         pass
 
-    @st.cache
+    # @st.cache
     def whisper(self):
         # download youtube url
         self.timestr = time.strftime("%Y%m%d-%H%M%S")
@@ -137,7 +137,7 @@ class TextToSummary():
         self.summary_input = input_text   
         self.summary_output = (self.summarizer(self.summary_input, min_length=min_length, max_length=max_length, do_sample=False))
         
-    @st.cache
+    # @st.cache
     def load_summary_model(self):
         self.summarizer = pipeline("summarization", model="sshleifer/distilbart-cnn-6-6")
         
