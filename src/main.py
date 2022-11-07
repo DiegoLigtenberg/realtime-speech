@@ -42,7 +42,7 @@ if transcribe:
 
     # remove app if it is already running
     dir = 'output'
-    if len(os.listdir(dir)) > 1: 
+    if len(os.listdir(dir)) > 1:  # test realtime
         for f in os.listdir(dir):
             os.remove(os.path.join(dir, f))
         st.write("SOMEONE ELSE IS ALREADY USING THIS APP. PLEASE WAIT 2-3 minutes")
