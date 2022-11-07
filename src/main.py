@@ -38,7 +38,7 @@ with st.sidebar.form("input_form"):
     # if summary:
         
     min_sum = st.number_input("Minimum words in the summary", min_value=1, step=10,value=50)
-    max_sum = st.number_input("Maximum words in the summary", min_value=2, step=10,value=100)
+    max_sum = st.number_input("Maximum words in the summary", min_value=2, step=10,value=50)
     min_sum = min(min_sum,max_sum)
     
     
