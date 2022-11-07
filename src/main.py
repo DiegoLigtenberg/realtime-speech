@@ -111,7 +111,7 @@ if "transcription" in st.session_state:
         st.session_state.transcription.clear_all()
 
     
-else:
-    # bugg with multiusers and not deleting audio file TODO
-    st.session_state.transcription.clear_all()
+# else:
+#     # bugg with multiusers and not deleting audio file 
+#     st.session_state.transcription.clear_all()
 
