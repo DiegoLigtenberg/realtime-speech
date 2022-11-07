@@ -23,8 +23,7 @@ input_type = st.sidebar.selectbox("Input Type", ["YouTube", "File"])
 
 with st.sidebar.form("input_form"):
     if input_type == "YouTube":
-        youtube_url = st.text_input("Youtube URL")
-        st.markdown("PLEASE UPLOAD VIDEOS WITH HUMAN SPEECH THAT ARE 8 MINUTES OR SHORTER")
+        youtube_url = st.text_input("Youtube URL (performs best when videos are shorter than 8 minutes!)")
     elif input_type == "File":
         input_file = st.file_uploader("File", type=["mp3", "wav"])       
 
