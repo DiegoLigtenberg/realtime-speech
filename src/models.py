@@ -133,7 +133,7 @@ class SoundToText():
 class TextToSummary():
     @st.cache
     def __init__(self,input_text,min_length,max_length):        
-        self.summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
+        self.summarizer = pipeline("summarization", model="sshleifer/distilbart-cnn-6-6")
         self.summary_input = input_text   
         self.summary_output = (self.summarizer(self.summary_input, min_length=min_length, max_length=max_length, do_sample=False))
         
