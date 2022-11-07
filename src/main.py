@@ -18,6 +18,8 @@ def open_instructions():
     with open("instructions.md", "r") as f:
         st.write(f.read())
 
+
+
 # Render input type selection on the sidebar & the form
 input_type = st.sidebar.selectbox("Input Type", ["YouTube", "File"])
 
@@ -26,7 +28,7 @@ input_type = st.sidebar.selectbox("Input Type", ["YouTube", "File"])
 with st.sidebar.form("input_form"):
     submitted = False
     if input_type == "YouTube":
-        youtube_url = st.text_input("Youtube URL (shorter than 8 minutes)")
+        youtube_url = st.text_input("Youtube URL (shorter than 8 minutes)")       
     elif input_type == "File":
         input_file = st.file_uploader("File", type=["mp3", "wav"])       
 
@@ -47,6 +49,8 @@ with st.sidebar.form("input_form"):
 with st.sidebar.form("save settings"):
     transcribe = st.form_submit_button(label="Transcribe!")
    
+# if input_type == "YouTube":
+#      st.title("Youtube to Summary converter ")
 
 if transcribe:
 
@@ -122,8 +126,10 @@ if "transcription" in st.session_state and transcribe:
     except:
         # bugg with multiusers and not deleting audio file TODO
         st.session_state.transcription.clear_all()
+        transcribe = False
  
-    
+else:
+    transcribe = False  
 # else:
 #     # bugg with multiusers and not deleting audio file 
 #     st.session_state.transcription.clear_all()
