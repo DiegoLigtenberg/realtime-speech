@@ -85,6 +85,7 @@ if "transcription" in st.session_state:
         raw_output = transcription_col.expander("Raw output")
         raw_output.markdown(st.session_state.transcription.raw_output["text"])
 
+        # st.write(min_sum)
         if summary:
             summarized_output = transcription_col.expander("summarized output")
             # CURRENTLY ONLY SUPPORTS 1024 WORD TOKENS -> TODO: FIND METHOD TO INCREASE SUMMARY FOR LONGER VIDS -> 1024 * 4 = aprox 800 words within 1024 range
