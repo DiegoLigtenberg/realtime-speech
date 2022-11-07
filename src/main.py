@@ -42,7 +42,7 @@ if transcribe:
 
     # remove app if it is already running
     path = "output"
-    if os.path.exists(path):
+    if not os.path.exists(path):
         os.makedirs(path)
     dir = 'output'
     if len(os.listdir(dir)) > 1:  # test realtime
