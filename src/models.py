@@ -6,6 +6,7 @@ from pytube import YouTube
 import os
 import glob
 import time
+import streamlit as st
 
 class BagOfModels:
     '''model            ->  is a model from hugging face
@@ -66,7 +67,7 @@ class Model:
     def predict_stt(self,source,source_type,model_task):       
         model = whisper.load_model(self.model_name.split("_")[1]) #tiny - base - medium 
         stt = SoundToText(source,source_type,model_task,model=model,tokenizer=None)
-        stt.whisper()
+        # stt.whisper()
         return stt
 
     def predict_summary(self):
@@ -90,7 +91,8 @@ class SoundToText():
     
     def wav2vec2(self,size):
         pass
-    
+
+    @st.cache
     def whisper(self):
         # download youtube url
         self.timestr = time.strftime("%Y%m%d-%H%M%S")
@@ -119,7 +121,12 @@ class SoundToText():
         self.transcribed = True
     
     def clear_folder(self):
-           os.remove(f'output/audio{self.timestr}')
+        os.remove(f'output/audio{self.timestr}')
+    
+    def clear_all(self):
+        dir = 'output'
+        for f in os.listdir(dir):
+            os.remove(os.path.join(dir, f))
 
 
                 
