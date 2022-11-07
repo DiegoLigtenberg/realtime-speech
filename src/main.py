@@ -41,6 +41,9 @@ with st.sidebar.form("save settings"):
 if transcribe:
 
     # remove app if it is already running
+    path = "output"
+    if os.path.exists(path):
+        os.makedirs(path)
     dir = 'output'
     if len(os.listdir(dir)) > 1:  # test realtime
         for f in os.listdir(dir):
