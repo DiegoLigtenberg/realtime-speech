@@ -5,6 +5,7 @@ from settings import MODEL_PARSER
 from pytube import YouTube
 import os
 import glob
+import time
 
 class BagOfModels:
     '''model            ->  is a model from hugging face
@@ -92,15 +93,17 @@ class SoundToText():
     
     def whisper(self):
         # download youtube url
+        self.timestr = time.strftime("%Y%m%d-%H%M%S")
         if self.source_type == "YouTube":       
-            self.audio_path = YouTube(self.source).streams.get_by_itag(140).download("output/", filename="audio")
+            self.audio_path = YouTube(self.source).streams.get_by_itag(140).download("output/", filename=f"audio{self.timestr}") 
         
+       
         if self.source_type == "File": 
             audio = None
             if self.source.name.endswith('.wav'): audio = AudioSegment.from_wav(self.source)
             elif self.source.name.endswith('.mp3'): audio = AudioSegment.from_mp3(self.source)                
-            audio.export('output/audio.wav', format='wav')
-            self.audio_path = "output/audio.wav"            
+            audio.export(f'output/audio{self.timestr}.wav', format='wav')
+            self.audio_path = f"output/audio{self.timestr}.wav"            
 
         model = whisper.load_model("base")
         self.raw_output = model.transcribe(self.audio_path,verbose=True)
@@ -116,7 +119,7 @@ class SoundToText():
         self.transcribed = True
     
     def clear_folder(self):
-        os.remove('output/audio')
+           os.remove(f'output/audio{self.timestr}')
 
 
                 

@@ -1,1 +1,0 @@
-We made a machine learning model that can input Speech, and output a summarized version of it. Isn't that cool? I think it
