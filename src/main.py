@@ -34,19 +34,19 @@ with st.sidebar.form("input_form"):
 
     whisper_model = st.selectbox("Whisper model", options = [whisper for whisper in BagOfModels.get_model_names() if "whisper" in whisper] , index=1) 
 
-    summary = st.checkbox("summarize")
-    if summary:
+    # summary = st.checkbox("summarize")
+    # if summary:
         
-        min_sum = st.number_input("Minimum words in the summary", min_value=1, step=10,value=50)
-        max_sum = st.number_input("Maximum words in the summary", min_value=2, step=10,value=100)
-        min_sum = min(min_sum,max_sum)
+    min_sum = st.number_input("Minimum words in the summary", min_value=1, step=10,value=50)
+    max_sum = st.number_input("Maximum words in the summary", min_value=2, step=10,value=100)
+    min_sum = min(min_sum,max_sum)
     
     
-    submitted = st.form_submit_button(label="Save settings")
+    # submitted = st.form_submit_button(label="Save settings")
     if submitted:
         st.write("settings saved")
     
-with st.sidebar.form("save settings"):
+# with st.sidebar.form("save settings"):
     transcribe = st.form_submit_button(label="Transcribe!")
    
 # if input_type == "YouTube":
@@ -100,11 +100,11 @@ try:
             raw_output.markdown(st.session_state.transcription.raw_output["text"])
 
             # st.write(min_sum)
-            if summary:
-                summarized_output = transcription_col.expander("summarized output")
-                # CURRENTLY ONLY SUPPORTS 1024 WORD TOKENS -> TODO: FIND METHOD TO INCREASE SUMMARY FOR LONGER VIDS -> 1024 * 4 = aprox 800 words within 1024 range
-                text_summary = TextToSummary(str(st.session_state.transcription.text[:1024*4]),min_sum,max_sum).get_summary()
-                summarized_output.markdown(text_summary[0]["summary_text"])    
+            # if summary:
+            summarized_output = transcription_col.expander("summarized output")
+            # CURRENTLY ONLY SUPPORTS 1024 WORD TOKENS -> TODO: FIND METHOD TO INCREASE SUMMARY FOR LONGER VIDS -> 1024 * 4 = aprox 800 words within 1024 range
+            text_summary = TextToSummary(str(st.session_state.transcription.text[:1024*4]),min_sum,max_sum).get_summary()
+            summarized_output.markdown(text_summary[0]["summary_text"])    
 
             # Show transcription in format with timers added to text
             time_annotated_output = transcription_col.expander("time_annotated_output")
