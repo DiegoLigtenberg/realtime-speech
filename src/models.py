@@ -3,6 +3,8 @@ from pydub import AudioSegment
 import whisper
 from settings import MODEL_PARSER
 from pytube import YouTube
+import os
+import glob
 
 class BagOfModels:
     '''model            ->  is a model from hugging face
@@ -112,6 +114,13 @@ class SoundToText():
             del segment["tokens"]
 
         self.transcribed = True
+    
+    def clear_folder():
+        files = glob.glob('/output/*')
+        for f in files:
+            os.remove(f)
+
+
                 
 class TextToSummary():
     def __init__(self,input_text,min_length,max_length):        

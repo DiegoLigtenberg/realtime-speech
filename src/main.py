@@ -81,11 +81,13 @@ if "transcription" in st.session_state:
             f"""[{round(segment["start"], 1)} - {round(segment["end"], 1)}] - {segment["text"]}"""
         )
     
+    st.session_state.transcription.clear_folder()
     # Show input youtube video
     if input_type == "YouTube":
         media_col.markdown("---")
         media_col.markdown("#### Original YouTube Video")
         media_col.video(st.session_state.transcription.source)
+    
 else:
     pass
 
