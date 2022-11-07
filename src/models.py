@@ -115,10 +115,8 @@ class SoundToText():
 
         self.transcribed = True
     
-    def clear_folder():
-        files = glob.glob('/output/*')
-        for f in files:
-            os.remove(f)
+    def clear_folder(self):
+        os.remove('output/audio')
 
 
                 
