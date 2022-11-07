@@ -21,7 +21,10 @@ def open_instructions():
 # Render input type selection on the sidebar & the form
 input_type = st.sidebar.selectbox("Input Type", ["YouTube", "File"])
 
+
+
 with st.sidebar.form("input_form"):
+    submitted = False
     if input_type == "YouTube":
         youtube_url = st.text_input("Youtube URL (shorter than 8 minutes)")
     elif input_type == "File":
@@ -31,13 +34,20 @@ with st.sidebar.form("input_form"):
 
     summary = st.checkbox("summarize")
     if summary:
-        min_sum = st.number_input("Minimum words in the summary", min_value=1, step=1,value=50)
-        max_sum = min(min_sum,st.number_input("Maximum words in the summary", min_value=2, step=1,value=100))
-    st.form_submit_button(label="Save settings")
+        
+        min_sum = st.number_input("Minimum words in the summary", min_value=1, step=10,value=50)
+        max_sum = st.number_input("Maximum words in the summary", min_value=2, step=10,value=100)
+        min_sum = min(min_sum,max_sum)
+    
+    
+    submitted = st.form_submit_button(label="Save settings")
+    if submitted:
+        st.write("settings saved")
+    
 with st.sidebar.form("save settings"):
     transcribe = st.form_submit_button(label="Transcribe!")
    
-   
+
 if transcribe:
 
     # remove app if it is already running
@@ -66,7 +76,7 @@ if transcribe:
             st.error("Please upload a file")
 
 
-if "transcription" in st.session_state:
+if "transcription" in st.session_state and transcribe:
     st.session_state.transcription.whisper() # -> it is already running in models.py
     # if not path.exists("output/audio/"):
 
@@ -104,7 +114,7 @@ if "transcription" in st.session_state:
             media_col.markdown("---")
             media_col.markdown("#### Original YouTube Video")
             media_col.video(st.session_state.transcription.source)
-        
+        transcribe = False
         # clear folder of audio files
         st.session_state.transcription.transcribed = True
         st.session_state.transcription.clear_folder()
@@ -112,7 +122,7 @@ if "transcription" in st.session_state:
     except:
         # bugg with multiusers and not deleting audio file TODO
         st.session_state.transcription.clear_all()
-
+ 
     
 # else:
 #     # bugg with multiusers and not deleting audio file 
