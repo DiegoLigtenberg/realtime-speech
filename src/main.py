@@ -62,7 +62,7 @@ if transcribe:
     if not os.path.exists(path):
         os.makedirs(path)
     dir = 'output'
-    if len(os.listdir(dir)) > 0:  # removes audio files if someone else was using app or duplicate audio files because bug
+    if len(os.listdir(dir)) > 1:  # removes audio files if someone else was using app or duplicate audio files because bug
         for f in os.listdir(dir):
             os.remove(os.path.join(dir, f)) 
         
