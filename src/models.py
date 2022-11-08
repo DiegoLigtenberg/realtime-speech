@@ -92,7 +92,7 @@ class SoundToText():
     def wav2vec2(self,size):
         pass
 
-    @st.cache
+    # @st.cache(ttl=10)
     def whisper(self):
         # download youtube url
         self.timestr = time.strftime("%Y%m%d-%H%M%S")
