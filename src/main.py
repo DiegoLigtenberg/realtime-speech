@@ -134,7 +134,7 @@ if "transcription" in st.session_state and transcribe:
     #     transcribe = False
 
 else:
-    transcribe = False 
+    # transcribe = False 
     st.write("App is already in use please wait and retry")
 
 # else:
