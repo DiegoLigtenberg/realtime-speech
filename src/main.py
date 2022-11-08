@@ -133,7 +133,8 @@ try:
             st.session_state.transcription.clear_all()
             transcribe = False
 
-except:
+except Exception as e:
+    st.write(e)
     transcribe = False 
     st.write("App is already in use please wait and retry")
 
