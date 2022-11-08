@@ -134,8 +134,9 @@ if "transcription" in st.session_state and transcribe:
     #     transcribe = False
 
 else:
+    pass
     # transcribe = False 
-    st.write("App is already in use please wait and retry")
+    # st.write("App is already in use please wait and retry")
 
 # else:
 #     # bugg with multiusers and not deleting audio file 
