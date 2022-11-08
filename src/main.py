@@ -32,8 +32,8 @@ with st.sidebar.form("input_form"):
     elif input_type == "File":
         input_file = st.file_uploader("File", type=["mp3", "wav"])       
 
-    # whisper_model = st.selectbox("Whisper model", options = [whisper for whisper in BagOfModels.get_model_names() if "whisper" in whisper] , index=1) 
-    whisper_model = st.selectbox("Whisper model", options = ["whisper_tiny"]) 
+    whisper_model = st.selectbox("Whisper model", options = [whisper for whisper in BagOfModels.get_model_names() if "whisper" in whisper] , index=1) 
+    # whisper_model = st.selectbox("Whisper model", options = ["whisper_tiny"]) 
 
     # summary = st.checkbox("summarize")
     # if summary:
