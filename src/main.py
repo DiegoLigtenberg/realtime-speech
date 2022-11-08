@@ -86,47 +86,51 @@ if transcribe:
 
 
 if "transcription" in st.session_state and transcribe:
-    st.session_state.transcription.whisper() # -> it is already running in models.py
-    # if not path.exists("output/audio/"):
+    try:
+        st.session_state.transcription.whisper() # -> it is already running in models.py
+        # if not path.exists("output/audio/"):
 
-    # create two columns to separate page and youtube video
-    transcription_col, media_col = st.columns(2, gap="large")
+        # create two columns to separate page and youtube video
+        transcription_col, media_col = st.columns(2, gap="large")
 
-    transcription_col.markdown("#### Audio")
-  
-    with open(st.session_state.transcription.audio_path, "rb") as f:
-        transcription_col.audio(f.read())
-    transcription_col.markdown("---")
-    transcription_col.markdown(f"#### Transcription (whisper model - `{whisper_model}`)")
-    transcription_col.markdown(f"##### Language: `{st.session_state.transcription.language}`")
+        transcription_col.markdown("#### Audio")
+    
+        with open(st.session_state.transcription.audio_path, "rb") as f:
+            transcription_col.audio(f.read())
+        transcription_col.markdown("---")
+        transcription_col.markdown(f"#### Transcription (whisper model - `{whisper_model}`)")
+        transcription_col.markdown(f"##### Language: `{st.session_state.transcription.language}`")
 
-    # Trim raw transcribed output off tokens to simplify
-    raw_output = transcription_col.expander("Raw output")
-    raw_output.markdown(st.session_state.transcription.raw_output["text"])
+        # Trim raw transcribed output off tokens to simplify
+        raw_output = transcription_col.expander("Raw output")
+        raw_output.markdown(st.session_state.transcription.raw_output["text"])
 
-    # st.write(min_sum)
-    # if summary:
-    summarized_output = transcription_col.expander("summarized output")
-    # CURRENTLY ONLY SUPPORTS 1024 WORD TOKENS -> TODO: FIND METHOD TO INCREASE SUMMARY FOR LONGER VIDS -> 1024 * 4 = aprox 800 words within 1024 range
-    text_summary = TextToSummary(str(st.session_state.transcription.text[:1024*4]),min_sum,max_sum).get_summary()
-    summarized_output.markdown(text_summary[0]["summary_text"])    
+        # st.write(min_sum)
+        # if summary:
+        summarized_output = transcription_col.expander("summarized output")
+        # CURRENTLY ONLY SUPPORTS 1024 WORD TOKENS -> TODO: FIND METHOD TO INCREASE SUMMARY FOR LONGER VIDS -> 1024 * 4 = aprox 800 words within 1024 range
+        text_summary = TextToSummary(str(st.session_state.transcription.text[:1024*4]),min_sum,max_sum).get_summary()
+        summarized_output.markdown(text_summary[0]["summary_text"])    
 
-    # Show transcription in format with timers added to text
-    time_annotated_output = transcription_col.expander("time_annotated_output")
-    for segment in st.session_state.transcription.segments:
-        time_annotated_output.markdown(
-            f"""[{round(segment["start"], 1)} - {round(segment["end"], 1)}] - {segment["text"]}"""
-        )
+        # Show transcription in format with timers added to text
+        time_annotated_output = transcription_col.expander("time_annotated_output")
+        for segment in st.session_state.transcription.segments:
+            time_annotated_output.markdown(
+                f"""[{round(segment["start"], 1)} - {round(segment["end"], 1)}] - {segment["text"]}"""
+            )
 
-    # Show input youtube video
-    if input_type == "YouTube":
-        media_col.markdown("---")
-        media_col.markdown("#### Original YouTube Video")
-        media_col.video(st.session_state.transcription.source)
-    transcribe = False
-    # clear folder of audio files
-    st.session_state.transcription.transcribed = True
-    st.session_state.transcription.clear_folder()
+        # Show input youtube video
+        if input_type == "YouTube":
+            media_col.markdown("---")
+            media_col.markdown("#### Original YouTube Video")
+            media_col.video(st.session_state.transcription.source)
+        transcribe = False
+        # clear folder of audio files
+        st.session_state.transcription.transcribed = True
+    except Exception as e:
+        st.write("traffic of this app migh be high, please wait a minute and try again")
+        st.write(e)
+    st.session_state.transcription.clear_all()
 
     # except:
     #     # bugg with multiusers and not deleting audio file TODO
@@ -134,6 +138,14 @@ if "transcription" in st.session_state and transcribe:
     #     transcribe = False
 
 else:
+    path = "output"
+    if not os.path.exists(path):
+        os.makedirs(path)
+    dir = 'output'
+    if len(os.listdir(dir)) > 1:  # removes audio files if someone else was using app or duplicate audio files because bug
+        for f in os.listdir(dir):
+            os.remove(os.path.join(dir, f)) 
+
     pass
     # transcribe = False 
     # st.write("App is already in use please wait and retry")
