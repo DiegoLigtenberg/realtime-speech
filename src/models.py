@@ -105,10 +105,9 @@ class SoundToText():
             if self.source.name.endswith('.wav'): audio = AudioSegment.from_wav(self.source)
             elif self.source.name.endswith('.mp3'): audio = AudioSegment.from_mp3(self.source)                
             audio.export(f'output/audio{self.timestr}.wav', format='wav')
-            self.audio_path = f"output/audio{self.timestr}.wav"            
-
-        model = whisper.load_model("base")
-        self.raw_output = model.transcribe(self.audio_path,verbose=True,fp16=False) #float point 16 not supported for cpu
+            self.audio_path = f"output/audio{self.timestr}.wav"   
+        
+        self.raw_output = self.model.transcribe(self.audio_path,verbose=True,fp16=False) #float point 16 not supported for cpu
 
         self.text = self.raw_output["text"]
         self.language = self.raw_output["language"]
@@ -129,17 +128,17 @@ class SoundToText():
             os.remove(os.path.join(dir, f))
 
 
-                
+             
 class TextToSummary():
     
     def __init__(self,input_text,min_length,max_length):        
-        self.load_summary_model()
+        self.summarizer = self.load_summary_model()
         self.summary_input = input_text   
         self.summary_output = (self.summarizer(self.summary_input, min_length=min_length, max_length=max_length, do_sample=False))
-        
-    # @st.cache
+    
     def load_summary_model(self):
-        self.summarizer = pipeline("summarization", model="sshleifer/distilbart-cnn-6-6")
+        summarizer = pipeline("summarization", model="sshleifer/distilbart-cnn-6-6")
+        return summarizer
         
     def get_summary(self):
         return self.summary_output
