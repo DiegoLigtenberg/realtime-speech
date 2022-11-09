@@ -64,8 +64,13 @@ class Model:
         self._year = year
         self._description = description
     
-    def predict_stt(self,source,source_type,model_task):       
+    @st.cache
+    def load_cached_whisper(self):
         model = whisper.load_model(self.model_name.split("_")[1]) #tiny - base - medium 
+        return model
+
+    def predict_stt(self,source,source_type,model_task):       
+        model = self.load_cached_whisper()
         stt = SoundToText(source,source_type,model_task,model=model,tokenizer=None)
         # stt.whisper()
         return stt
@@ -92,7 +97,7 @@ class SoundToText():
     def wav2vec2(self,size):
         pass
 
-    @st.cache(ttl=10,max_entries=3) #ttl=10 might prevent all the memory crashes
+    # @st.cache(ttl=10,max_entries=3) #ttl=10 might prevent all the memory crashes
     def whisper(self):
         # download youtube url
         self.timestr = time.strftime("%Y%m%d-%H%M%S")
@@ -127,7 +132,7 @@ class SoundToText():
         for f in os.listdir(dir):
             os.remove(os.path.join(dir, f))
 
-
+import torch
              
 class TextToSummary():
     
