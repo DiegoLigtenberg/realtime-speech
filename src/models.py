@@ -131,8 +131,6 @@ class SoundToText():
         dir = 'output'
         for f in os.listdir(dir):
             os.remove(os.path.join(dir, f))
-
-import torch
              
 class TextToSummary():
     
