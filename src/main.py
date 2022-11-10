@@ -23,7 +23,10 @@ def open_instructions():
 # Render input type selection on the sidebar & the form
 input_type = st.sidebar.selectbox("Input Type", ["YouTube", "File"])
 
-
+@st.cache
+def initialize():
+    return True
+    
 
 with st.sidebar.form("input_form"):
     submitted = False
@@ -49,10 +52,27 @@ with st.sidebar.form("input_form"):
         st.write("settings saved")
     
 # with st.sidebar.form("save settings"):
+    path = "output"
+    if not os.path.exists(path):
+        os.makedirs(path)
+    dir = 'output'
     transcribe = st.form_submit_button(label="Transcribe!")
+    if len(os.listdir(dir)) > 0:  # removes audio files if someone else was using app or duplicate audio files because bug
+        transcribe = False
+        st.write("you only have to click once")
+        path = "output"
+        if not os.path.exists(path):
+            os.makedirs(path)
+        dir = 'output'
+        for f in os.listdir(dir):
+            os.remove(os.path.join(dir, f)) 
+
+
+        
    
 # if input_type == "YouTube":
 #      st.title("Youtube to Summary converter ")
+
 
 
 if transcribe:
@@ -153,4 +173,3 @@ else:
 # else:
 #     # bugg with multiusers and not deleting audio file 
 #     st.session_state.transcription.clear_all()
-
