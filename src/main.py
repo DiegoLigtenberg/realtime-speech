@@ -6,6 +6,8 @@ from os import path
 
 args = MODEL_PARSER
 
+dir = 'output'
+
 st.set_page_config(
     page_title="TTS Applications | Incore Solutions",
     layout="wide",
@@ -14,22 +16,25 @@ st.set_page_config(
     },
 )
 
+
 def open_instructions():
     with open("instructions.md", "r") as f:
         st.write(f.read())
+    
+# make audio outputfile
+def add_audio_configuration():
+    path = "output"
+    if not os.path.exists(path):
+        os.makedirs(path)
+    
 
 
 
 # Render input type selection on the sidebar & the form
 input_type = st.sidebar.selectbox("Input Type", ["YouTube", "File"])
 
-@st.cache
-def initialize():
-    return True
-    
 
 with st.sidebar.form("input_form"):
-    submitted = False
     if input_type == "YouTube":
         youtube_url = st.text_input("Youtube URL (shorter than 8 minutes)")       
     elif input_type == "File":
@@ -37,58 +42,27 @@ with st.sidebar.form("input_form"):
 
     whisper_model = st.selectbox("Whisper model", options = [whisper for whisper in BagOfModels.get_model_names() if "whisper" in whisper] , index=1) 
     # whisper_model = st.selectbox("Whisper model", options = ["whisper_tiny"]) 
-
-    # summary = st.checkbox("summarize")
-    # if summary:
         
+    # let the user select amout of words in the summary
     min_sum = st.number_input("Number of words in the summary", min_value=1, step=10,value=50)
     # max_sum = st.number_input("Maximum words in the summary", min_value=2, step=10,value=50)
     max_sum = min_sum
     min_sum = min(min_sum,max_sum)
     
-    
-    # submitted = st.form_submit_button(label="Save settings")
-    if submitted:
-        st.write("settings saved")
-    
-# with st.sidebar.form("save settings"):
-    path = "output"
-    if not os.path.exists(path):
-        os.makedirs(path)
-    dir = 'output'
+    add_audio_configuration()
     transcribe = st.form_submit_button(label="Transcribe!")
-    if len(os.listdir(dir)) > 0:  # removes audio files if someone else was using app or duplicate audio files because bug
+
+    # removes audio files if someone else was using app or duplicate audio files because bug
+    if len(os.listdir(dir)) > 0:  
         transcribe = False
         st.write("you only have to click once")
-        path = "output"
-        if not os.path.exists(path):
-            os.makedirs(path)
-        dir = 'output'
         for f in os.listdir(dir):
             os.remove(os.path.join(dir, f)) 
-
-
-        
-   
-# if input_type == "YouTube":
-#      st.title("Youtube to Summary converter ")
 
 
 
 if transcribe:
-
-    # remove app if it is already running
-    path = "output"
-    if not os.path.exists(path):
-        os.makedirs(path)
-    dir = 'output'
-    if len(os.listdir(dir)) > 1:  # removes audio files if someone else was using app or duplicate audio files because bug
-        for f in os.listdir(dir):
-            os.remove(os.path.join(dir, f)) 
-        
-        # transcribe = False
-        
-
+    # select song using Youtube
     if input_type == "YouTube":
         if youtube_url and youtube_url.startswith("http"):
             model = BagOfModels.load_model(whisper_model,**vars(args))
@@ -96,7 +70,8 @@ if transcribe:
         else:
             st.error("Please enter a valid YouTube URL")
             open_instructions()
-        
+    
+    # select song using personal file (mp3 or wav supports)
     elif input_type == "File":
         if input_file:
             model = BagOfModels.load_model(whisper_model,**vars(args))
@@ -107,14 +82,13 @@ if transcribe:
 
 if "transcription" in st.session_state and transcribe:
     try:
-        st.session_state.transcription.whisper() # -> it is already running in models.py
-        # if not path.exists("output/audio/"):
+        # enables whisper to transcribe
+        st.session_state.transcription.whisper()
 
         # create two columns to separate page and youtube video
         transcription_col, media_col = st.columns(2, gap="large")
 
-        transcription_col.markdown("#### Audio")
-    
+        transcription_col.markdown("#### Audio")    
         with open(st.session_state.transcription.audio_path, "rb") as f:
             transcription_col.audio(f.read())
         transcription_col.markdown("---")
@@ -125,7 +99,6 @@ if "transcription" in st.session_state and transcribe:
         raw_output = transcription_col.expander("Raw output")
         raw_output.markdown(st.session_state.transcription.raw_output["text"])
 
-        # st.write(min_sum)
         # if summary:
         summarized_output = transcription_col.expander("summarized output")
         # CURRENTLY ONLY SUPPORTS 1024 WORD TOKENS -> TODO: FIND METHOD TO INCREASE SUMMARY FOR LONGER VIDS -> 1024 * 4 = aprox 800 words within 1024 range
@@ -145,31 +118,17 @@ if "transcription" in st.session_state and transcribe:
             media_col.markdown("#### Original YouTube Video")
             media_col.video(st.session_state.transcription.source)
         transcribe = False
+
         # clear folder of audio files
         st.session_state.transcription.transcribed = True
+
     except Exception as e:
         st.write("traffic of this app migh be high, please wait a minute and try again")
         st.write(e)
     st.session_state.transcription.clear_all()
 
-    # except:
-    #     # bugg with multiusers and not deleting audio file TODO
-    #     st.session_state.transcription.clear_all()
-    #     transcribe = False
-
 else:
-    path = "output"
-    if not os.path.exists(path):
-        os.makedirs(path)
-    dir = 'output'
-    if len(os.listdir(dir)) > 1:  # removes audio files if someone else was using app or duplicate audio files because bug
+    # removes audio files if someone else was using app or duplicate audio files because bug
+    if len(os.listdir(dir)) > 1:  
         for f in os.listdir(dir):
             os.remove(os.path.join(dir, f)) 
-
-    pass
-    # transcribe = False 
-    # st.write("App is already in use please wait and retry")
-
-# else:
-#     # bugg with multiusers and not deleting audio file 
-#     st.session_state.transcription.clear_all()

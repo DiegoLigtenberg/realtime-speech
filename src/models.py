@@ -12,9 +12,10 @@ class BagOfModels:
     '''model            ->  is a model from hugging face
        model_names      ->  modelnames that can be chosen from in streamlit
        model_settinsg   ->  settings of model that can be customized by user
+       model_tasks      ->  the task that the model is doing (text-to-speech, summarization)
     '''
+    # class variables
     args = MODEL_PARSER
-    barfs = 5
 
     def __init__(self,model,model_names,model_settings,model_tasks, **kwargs):
         self.model = model
@@ -75,13 +76,10 @@ class Model:
         # stt.whisper()
         return stt
 
+    # TODO if more summarization models are implemented, add them here
     def predict_summary(self):
         tokenizer = Wav2Vec2Processor.from_pretrained(self.name)
         model = Wav2Vec2ForCTC.from_pretrained(self.name) # Note: PyTorch Model
-
-class Transcription():
-    def __init__(self,model,source,source_type) -> None:
-        pass
 
 class SoundToText():
     def __init__(self,source,source_type,model_task,model,tokenizer=None):
@@ -91,20 +89,21 @@ class SoundToText():
         self.model_task = model_task
         self.tokenizer = tokenizer
     
+    # not yet implemented
     def wav2vec(self,size):
         pass
     
+    # not yet implemented
     def wav2vec2(self,size):
         pass
 
-    # @st.cache(ttl=10,max_entries=3) #ttl=10 might prevent all the memory crashes
     def whisper(self):
         # download youtube url
         self.timestr = time.strftime("%Y%m%d-%H%M%S")
         if self.source_type == "YouTube":       
             self.audio_path = YouTube(self.source).streams.get_by_itag(140).download("output/", filename=f"audio{self.timestr}") 
         
-       
+        # convert file to audiosegment
         if self.source_type == "File": 
             audio = None
             if self.source.name.endswith('.wav'): audio = AudioSegment.from_wav(self.source)
@@ -112,8 +111,8 @@ class SoundToText():
             audio.export(f'output/audio{self.timestr}.wav', format='wav')
             self.audio_path = f"output/audio{self.timestr}.wav"   
         
+        # transcribe the model and extract text, language, and time-annotated segments
         self.raw_output = self.model.transcribe(self.audio_path,verbose=True,fp16=False) #float point 16 not supported for cpu
-
         self.text = self.raw_output["text"]
         self.language = self.raw_output["language"]
         self.segments = self.raw_output["segments"]
@@ -122,6 +121,7 @@ class SoundToText():
         for segment in self.segments:
             del segment["tokens"]
 
+        # source is transcribed
         self.transcribed = True
     
     def clear_folder(self):
@@ -149,13 +149,7 @@ class TextToSummary():
     def wav2vec(self):
         pass
 
-def record(model_name):
-    args = MODEL_PARSER
-    models = BagOfModels.get_model_names()
-    tasks = BagOfModels.get_model_tasks()
-    whisper_base = BagOfModels.load_model(model_name,**vars(args))
-    whisper_base.predict()
-
+# debugging
 if __name__== "__main__":
     args = MODEL_PARSER
     models = BagOfModels.get_model_names()
