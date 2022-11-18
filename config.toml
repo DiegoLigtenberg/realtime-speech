@@ -16,9 +16,11 @@ sharingMode = "off"
 # Default: true
 showWarningOnDirectExecution = true
 
+
+[logger]
 # Level of logging: 'error', 'warning', 'info', or 'debug'.
 # Default: 'info'
-logLevel = "debug"
+level = "debug"
 
 
 [client]
@@ -90,6 +92,7 @@ gatherUsageStats = true
 # Port that the browser should use to connect to the server when in liveSave mode.
 # Default: whatever value is set in server.port.
 serverPort = 80
+
 
 [s3]
 
