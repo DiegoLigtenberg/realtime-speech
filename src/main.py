@@ -76,20 +76,21 @@ if user_has_payed == False:
             st.write(" ")
         col2, _ = st.columns(2, gap="large")
         col2.markdown("### Example Transcription of audio file")
-        audio_file = open("example/example_interview.mp3",'rb')
-        audio_bytes = audio_file.read()
-        st.audio(audio_bytes, format='mp3')
+        with st.expander(""):
+            audio_file = open("example/example_interview.mp3",'rb')
+            audio_bytes = audio_file.read()
+            st.audio(audio_bytes, format='mp3')
 
-        with open("example/transcribe_example.txt", "r") as f:
-            file_contents = f.readlines()
+            with open("./example/transcribe_example.txt", "r") as f:
+                file_contents = f.readlines()
+                
+                col, _ = st.columns(2, gap="large")
+                for line in file_contents:
+                    col.markdown(line)
             
-            col, _ = st.columns(2, gap="large")
-            for line in file_contents:
-                col.markdown(line)
-        
-        if len(t)>0:        
-            st.error("""Incorrect password.    
-            get the password by paying a one-time fee to keep this app running""")
+            if len(t)>0:        
+                st.error("""Incorrect password.    
+                get the password by paying a one-time fee to keep this app running""")
 
 
 
