@@ -5,7 +5,7 @@ import os.path
 from os import path
 from io import BytesIO
 from datetime import datetime
-
+import numpy as np
 args = MODEL_PARSER
 
 dir = 'output'
@@ -29,12 +29,23 @@ def add_audio_configuration():
     if not os.path.exists(path):
         os.makedirs(path)
     
-    
-# Render input type selection on the sidebar & the form
-input_type = st.sidebar.selectbox("Input Type", ["YouTube", "File"])
+
+
 
 user_has_payed = False
 if user_has_payed == False:
+    st.markdown("### Transcription WebApp")
+    st.write("""We're excited to offer you a powerful tool that can transcribe audio data and YouTube videos using state-of-the-art machine learning algorithms.    
+    With this app, you can easily transcribe audio files in popular formats such as .wav and .mp3, and also transcribe audio from non-copyrighted YouTube videos.   
+
+    Usecases include: 
+    - Transcription of meetings
+    - Transcription of interviews 
+    - Transcription of online lectures (Youtube)
+
+    """ 
+    )
+
     text_input_container = st.empty()
     t = text_input_container.text_input("password")
 
@@ -47,6 +58,21 @@ if user_has_payed == False:
         st.error("""We kindly ask for a small one-time payment of 10 euros to keep this app running (see link above).   
         This one-time fee will help us maintain the app and provide ongoing support to our users.   
         Thank you for your understanding and support!""")
+
+        for i in range(3):
+            st.write(" ")
+        col2, _ = st.columns(2, gap="large")
+        col2.markdown("### Example Transcription of audio file")
+        audio_file = open("example/example_interview.wav",'rb')
+        audio_bytes = audio_file.read()
+        st.audio(audio_bytes, format='audio/ogg')
+
+        with open("example/transcribe_example.txt", "r") as f:
+            file_contents = f.readlines()
+            
+            col, _ = st.columns(2, gap="large")
+            for line in file_contents:
+                col.markdown(line)
         
         if len(t)>0:        
             st.error("""Incorrect password.    
@@ -55,6 +81,8 @@ if user_has_payed == False:
 
 
 if user_has_payed:
+    # Render input type selection on the sidebar & the form
+    input_type = st.sidebar.selectbox("Input Type", ["YouTube", "File"])
     password = st.empty()
     if st.button("Download text file"):
                 
@@ -86,7 +114,7 @@ if user_has_payed:
         elif input_type == "File":
             input_file = st.file_uploader("File", type=["mp3", "wav"])       
 
-        whisper_model = st.selectbox("Whisper model", options = [whisper for whisper in BagOfModels.get_model_names() if "whisper" in whisper] , index=1) 
+        whisper_model = st.selectbox("Whisper model", options = [whisper for whisper in BagOfModels.get_model_names() if "whisper" in whisper and not "large" in whisper] , index=1) 
         # whisper_model = st.selectbox("Whisper model", options = ["whisper_tiny"]) 
         
         # # let the user select amout of words in the summary
