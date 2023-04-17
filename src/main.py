@@ -63,8 +63,6 @@ if user_has_payed == False:
     t = text_input_container.text_input("password")
 
     if  t == "XAIR#9373":
-        if os.path.exists("transcribe.txt"):
-            os.remove("transcribe.txt" )
         text_input_container.empty()
         st.info(t)
         user_has_payed = True
@@ -99,6 +97,7 @@ if user_has_payed:
     # Render input type selection on the sidebar & the form
     input_type = st.sidebar.selectbox("Input Type", ["YouTube", "File"])
     password = st.empty()
+    
     if st.button("Download text file"):
                 
         filename = "transcribe.txt"
