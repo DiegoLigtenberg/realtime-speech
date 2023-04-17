@@ -22,8 +22,14 @@ whisper_medium:
   task: text_to_speech
   url: https://huggingface.co/openai/whisper-medium
   year: 2022
+  
+whisper_large:
+  task: openai/whisper-large
+  url: https://huggingface.co/openai/whisper-large-v2
+  year: 2022
 
 bart_large:
   task: text_to_summary
   url: https://huggingface.co/facebook/bart-large-cnn
   year: 2022
+

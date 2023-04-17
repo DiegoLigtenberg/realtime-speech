@@ -140,7 +140,7 @@ class TextToSummary():
         self.summary_output = (self.summarizer(self.summary_input, min_length=min_length, max_length=max_length, do_sample=False))
     
     def load_summary_model(self):
-        summarizer = pipeline("summarization", model="sshleifer/distilbart-cnn-6-6") #facebook/bart-large-cnn
+        summarizer = pipeline("summarization", model="facebook/bart-large-cnn") #facebook/bart-large-cnn
         return summarizer
         
     def get_summary(self):

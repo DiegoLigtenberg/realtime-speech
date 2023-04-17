@@ -3,7 +3,8 @@ from models import BagOfModels, SoundToText, TextToSummary
 from settings import MODEL_PARSER
 import os.path
 from os import path
-
+from io import BytesIO
+from datetime import datetime
 args = MODEL_PARSER
 
 dir = 'output'
@@ -33,6 +34,29 @@ def add_audio_configuration():
 # Render input type selection on the sidebar & the form
 input_type = st.sidebar.selectbox("Input Type", ["YouTube", "File"])
 
+if st.button("Download text file"):
+            
+    filename = "transcribe.txt"
+    if os.path.exists(filename):
+        file_extension = ".txt"
+        with open(filename, "r") as f:
+            file_contents = f.read()
+        file_bytes = file_contents.encode('utf-8')
+        # Create a BytesIO object
+        buffer = BytesIO()
+        buffer.write(file_bytes)
+        # Set the cursor at the beginning of the buffer
+        buffer.seek(0)
+        # Display the download button
+        st.download_button(
+            label="Download",
+            data=buffer,
+            file_name=filename,
+            mime=file_extension,
+        )
+        os.remove(filename)
+    else:
+        st.write("please first transcribe before downloading text file")
 
 with st.sidebar.form("input_form"):
     if input_type == "YouTube":
@@ -42,12 +66,12 @@ with st.sidebar.form("input_form"):
 
     whisper_model = st.selectbox("Whisper model", options = [whisper for whisper in BagOfModels.get_model_names() if "whisper" in whisper] , index=1) 
     # whisper_model = st.selectbox("Whisper model", options = ["whisper_tiny"]) 
-        
-    # let the user select amout of words in the summary
-    min_sum = st.number_input("Number of words in the summary", min_value=1, step=10,value=50)
-    # max_sum = st.number_input("Maximum words in the summary", min_value=2, step=10,value=50)
-    max_sum = min_sum
-    min_sum = min(min_sum,max_sum)
+    
+    # # let the user select amout of words in the summary
+    # min_sum = st.number_input("Number of words in the summary", min_value=1, step=10,value=50)
+    # # max_sum = st.number_input("Maximum words in the summary", min_value=2, step=10,value=50)
+    # max_sum = min_sum
+    # min_sum = min(min_sum,max_sum)
     
     add_audio_configuration()
     transcribe = st.form_submit_button(label="Transcribe!")
@@ -58,8 +82,7 @@ with st.sidebar.form("input_form"):
         st.write("you only have to click once")
         for f in os.listdir(dir):
             os.remove(os.path.join(dir, f)) 
-
-
+    
 
 if transcribe:
     # select song using Youtube
@@ -98,19 +121,31 @@ if "transcription" in st.session_state and transcribe:
         # Trim raw transcribed output off tokens to simplify
         raw_output = transcription_col.expander("Raw output")
         raw_output.markdown(st.session_state.transcription.raw_output["text"])
+        with open ("transcribe.txt",'w',encoding="utf-8") as t:
+            text = str(st.session_state.transcription.raw_output["text"])
+            for segment in st.session_state.transcription.segments:
+                time_objs = datetime.fromtimestamp(segment["start"])
+                time_obje = datetime.fromtimestamp(segment["end"])
+                time_objs = time_objs.strftime("%M:%S.%f")[:-4]
+                time_obje = time_obje.strftime("%M:%S.%f")[:-4]
+                # st.write(time_obje)
+                text = f"""[{time_objs} --> {time_obje}] - {segment["text"]}\n"""
+                t.write(text)
+            
+        # # if summary:
+        # summarized_output = transcription_col.expander("summarized output")
+        # # CURRENTLY ONLY SUPPORTS 1024 WORD TOKENS -> TODO: FIND METHOD TO INCREASE SUMMARY FOR LONGER VIDS -> 1024 * 4 = aprox 800 words within 1024 range
+        # text_summary = TextToSummary(str(st.session_state.transcription.text[:1024*4]),min_sum,max_sum).get_summary()
+        # summarized_output.markdown(text_summary[0]["summary_text"])    
 
-        # if summary:
-        summarized_output = transcription_col.expander("summarized output")
-        # CURRENTLY ONLY SUPPORTS 1024 WORD TOKENS -> TODO: FIND METHOD TO INCREASE SUMMARY FOR LONGER VIDS -> 1024 * 4 = aprox 800 words within 1024 range
-        text_summary = TextToSummary(str(st.session_state.transcription.text[:1024*4]),min_sum,max_sum).get_summary()
-        summarized_output.markdown(text_summary[0]["summary_text"])    
+        # # Show transcription in format with timers added to text
+        # time_annotated_output = transcription_col.expander("time_annotated_output")
+        # for segment in st.session_state.transcription.segments:
+        #     time_annotated_output.markdown(
+        #         f"""[{round(segment["start"], 1)} - {round(segment["end"], 1)}] - {segment["text"]}"""
+        #     )
 
-        # Show transcription in format with timers added to text
-        time_annotated_output = transcription_col.expander("time_annotated_output")
-        for segment in st.session_state.transcription.segments:
-            time_annotated_output.markdown(
-                f"""[{round(segment["start"], 1)} - {round(segment["end"], 1)}] - {segment["text"]}"""
-            )
+                # Create a button to download the text file
 
         # Show input youtube video
         if input_type == "YouTube":
@@ -126,6 +161,9 @@ if "transcription" in st.session_state and transcribe:
         st.write("traffic of this app migh be high, please wait a minute and try again")
         st.write(e)
     st.session_state.transcription.clear_all()
+
+
+
 
 else:
     # removes audio files if someone else was using app or duplicate audio files because bug

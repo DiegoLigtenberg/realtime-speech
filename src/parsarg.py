@@ -14,6 +14,7 @@ def model_parser_args():
     for model in (list(settings.keys())):
         task = (settings[model]["task"]) 
         if task not in task_list:task_list.append(task)
+        print(model)
     setting_list = ([setting for sublist in setting_list for setting in sublist]) # generate all sublists
     setting_list = [x for i, x in enumerate(setting_list) if x not in setting_list[:i]] # remain order of sublists
     parser.add_argument("--model_settings",help="see model_settings.yaml",default=setting_list)
