@@ -31,14 +31,24 @@ def add_audio_configuration():
         os.makedirs(path)
     
 
-
-
-user_has_payed = False
+@st.cache
+def myfunction():
+    print("Im run")
+    return False
+user_has_payed = myfunction()
+st.markdown("### Transcription WebApp")
+placeholder = st.empty()
+placeholder2 = st.empty()
 if user_has_payed == False:
-    st.markdown("### Transcription WebApp")
-    st.write("""We're excited to offer you a powerful tool that can transcribe audio data and YouTube videos using state-of-the-art machine learning algorithms.    
+   
+    
+    
+    placeholder.markdown("""We're excited to offer you a powerful tool that can transcribe audio data and YouTube videos using state-of-the-art machine learning algorithms.   
     With this app, you can easily transcribe audio files in popular formats such as .wav and .mp3, and also transcribe audio from non-copyrighted YouTube videos.   
+    """)
 
+    placeholder2.markdown("""؜
+    
     Usecases include: 
     - Transcription of (recorded) meetings
     - Transcription of interviews 
@@ -98,31 +108,8 @@ if user_has_payed:
     # Render input type selection on the sidebar & the form
     input_type = st.sidebar.selectbox("Input Type", ["YouTube", "File"])
     password = st.empty()
+    placeholder.empty()
     
-    if st.button("Download text file"):
-                
-        filename = "transcribe.txt"
-        if os.path.exists(filename):
-            file_extension = ".txt"
-            with open(filename, "r") as f:
-                file_contents = f.read()
-            file_bytes = file_contents.encode('utf-8')
-            # Create a BytesIO object
-            buffer = BytesIO()
-            buffer.write(file_bytes)
-            # Set the cursor at the beginning of the buffer
-            buffer.seek(0)
-            # Display the download button
-            st.download_button(
-                label="Download",
-                data=buffer,
-                file_name=filename,
-                mime=file_extension,
-            )
-            os.remove(filename)
-        else:
-            st.write("please first transcribe before downloading text file")
-
     with st.sidebar.form("input_form"):
         if input_type == "YouTube":
             youtube_url = st.text_input("Youtube URL (shorter than 8 minutes)")       
@@ -177,12 +164,13 @@ if user_has_payed:
             transcription_col, media_col = st.columns(2, gap="large")
 
             transcription_col.markdown("#### Audio")    
+            
             with open(st.session_state.transcription.audio_path, "rb") as f:
                 transcription_col.audio(f.read())
             transcription_col.markdown("---")
             transcription_col.markdown(f"#### Transcription (whisper model - `{whisper_model}`)")
             transcription_col.markdown(f"##### Language: `{st.session_state.transcription.language}`")
-
+            
             # Trim raw transcribed output off tokens to simplify
             raw_output = transcription_col.expander("Raw output")
             raw_output.markdown(st.session_state.transcription.raw_output["text"])
@@ -196,7 +184,7 @@ if user_has_payed:
                     # st.write(time_obje)
                     text = f"""[{time_objs} --> {time_obje}] - {segment["text"]}\n"""
                     t.write(text)
-                
+            # st.experimental_rerun()
             # # if summary:
             # summarized_output = transcription_col.expander("summarized output")
             # # CURRENTLY ONLY SUPPORTS 1024 WORD TOKENS -> TODO: FIND METHOD TO INCREASE SUMMARY FOR LONGER VIDS -> 1024 * 4 = aprox 800 words within 1024 range
@@ -211,16 +199,39 @@ if user_has_payed:
             #     )
 
                     # Create a button to download the text file
-
+            
             # Show input youtube video
             if input_type == "YouTube":
                 media_col.markdown("---")
                 media_col.markdown("#### Original YouTube Video")
                 media_col.video(st.session_state.transcription.source)
+            
             transcribe = False
 
             # clear folder of audio files
             st.session_state.transcription.transcribed = True
+            if not transcribe:
+                placeholder2.empty()
+                
+                filename = "transcribe.txt"                
+                file_extension = ".txt"
+                with open(filename, "r") as f:
+                    file_contents = f.read()
+                file_bytes = file_contents.encode('utf-8')
+                # Create a BytesIO object
+                buffer = BytesIO()
+                buffer.write(file_bytes)
+                # Set the cursor at the beginning of the buffer
+                buffer.seek(0)
+                # Display the download button
+                st.download_button(
+                    label="Download Text File",
+                    data=buffer,
+                    file_name=filename,
+                    mime=file_extension,
+                )
+                os.remove(filename)
+            
 
         except Exception as e:
             st.write("traffic of this app migh be high, please wait a minute and try again")
