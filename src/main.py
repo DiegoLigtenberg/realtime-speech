@@ -5,7 +5,6 @@ import os.path
 from os import path
 from io import BytesIO
 from datetime import datetime
-import stripe
 
 args = MODEL_PARSER
 
