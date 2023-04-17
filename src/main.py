@@ -16,6 +16,7 @@ st.set_page_config(
     menu_items={
         "About": """This is a simple GUI for OpenAI's Whisper.""",
     },
+    initial_sidebar_state="expanded",
 )
 
 
@@ -56,7 +57,9 @@ if user_has_payed == False:
     
     """ 
     )
-
+    #  filename = "transcribe.txt"
+    if os.path.exists("transcribe.txt"):
+        os.remove("transcribe.txt" )
     text_input_container = st.empty()
     t = text_input_container.text_input("password")
 
