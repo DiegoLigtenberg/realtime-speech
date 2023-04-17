@@ -1,105 +1,681 @@
-[00:00.00 --> 00:03.00] -  We bring it to the game.
-[00:03.00 --> 00:06.00] -  Yeah, I don't want to leave it.
-[00:06.00 --> 00:10.00] -  And maybe we're going to the game.
-[00:10.00 --> 00:12.00] -  Where are we going now?
-[00:12.00 --> 00:15.00] -  I want to see someone about my job.
-[00:15.00 --> 00:17.00] -  I don't understand.
-[00:17.00 --> 00:18.00] -  You don't understand what?
-[00:18.00 --> 00:20.00] -  Oh, you want to the game?
-[00:20.00 --> 00:23.00] -  I said possibly we're going to the game.
-[00:23.00 --> 00:25.00] -  You know what possibly means?
-[00:25.00 --> 00:26.00] -  Like probably.
-[00:26.00 --> 00:28.00] -  No, probably means there's a good chance
-[00:28.00 --> 00:32.00] -  that we're going to possibly means we might not.
-[00:32.00 --> 00:33.00] -  What does probably mean?
-[00:33.00 --> 00:35.00] -  It means we have a good chance.
-[00:35.00 --> 00:37.00] -  What does possibly mean?
-[00:37.00 --> 00:38.00] -  I know what it means.
-[00:38.00 --> 00:39.00] -  What does it mean?
-[00:39.00 --> 00:42.00] -  It means that we're not going to the game.
-[00:42.00 --> 00:45.00] -  How did you get so smart?
-[00:45.00 --> 00:48.00] -  It's just smart.
-[00:52.00 --> 00:53.00] -  Are we there?
-[00:53.00 --> 01:00.00] -  Yeah.
-[01:00.00 --> 01:01.00] -  Mr. Ribbon.
-[01:01.00 --> 01:02.00] -  Yes?
-[01:02.00 --> 01:04.00] -  How are you, sir? Chris Gardner.
-[01:04.00 --> 01:05.00] -  Dean Wooder.
-[01:05.00 --> 01:06.00] -  Oh, hi.
-[01:06.00 --> 01:07.00] -  Hi.
-[01:07.00 --> 01:08.00] -  Hey, this is my son, Christopher.
-[01:08.00 --> 01:09.00] -  Hi.
-[01:09.00 --> 01:10.00] -  Hey, Christopher.
-[01:10.00 --> 01:11.00] -  What are you doing up here?
-[01:11.00 --> 01:14.00] -  I came to apologize for missing our appointment the other day.
-[01:14.00 --> 01:15.00] -  All you need to come up?
-[01:15.00 --> 01:17.00] -  Oh, no. Actually, we were in the neighborhood visiting
-[01:17.00 --> 01:18.00] -  a very close friend of ours.
-[01:18.00 --> 01:21.00] -  And I just wanted to take this opportunity to say thank you
-[01:21.00 --> 01:24.00] -  for your time. I know you probably waited for me.
-[01:24.00 --> 01:25.00] -  A little bit.
-[01:25.00 --> 01:28.00] -  I want you to know that I do not take that for granted.
-[01:28.00 --> 01:29.00] -  No. Come on.
-[01:29.00 --> 01:30.00] -  What's that?
-[01:30.00 --> 01:34.00] -  Oh, this is an osteo-national bone density scanner.
-[01:34.00 --> 01:35.00] -  Oh.
-[01:35.00 --> 01:37.00] -  A company I bought it to prior to going to work with it.
-[01:37.00 --> 01:39.00] -  I have a meeting after the game.
-[01:39.00 --> 01:40.00] -  You guys going to the game?
-[01:40.00 --> 01:41.00] -  Oh, yeah.
-[01:41.00 --> 01:42.00] -  Possibly.
-[01:42.00 --> 01:44.00] -  Possibly.
-[01:44.00 --> 01:45.00] -  We're going to.
-[01:45.00 --> 01:46.00] -  I'm taking my son Tim, my 12-year-old.
-[01:46.00 --> 01:47.00] -  We were just leaving.
-[01:47.00 --> 01:48.00] -  Yeah!
-[01:48.00 --> 01:50.00] -  Listen, we'll get out of your way.
-[01:50.00 --> 01:51.00] -  Again, thank you very much.
-[01:51.00 --> 01:53.00] -  And I'm sorry about the other day.
-[01:53.00 --> 01:55.00] -  And I hope that we can reschedule for later this week.
-[01:55.00 --> 01:56.00] -  You got it.
-[01:56.00 --> 01:57.00] -  Thank you very much, Sarah.
-[01:57.00 --> 01:58.00] -  You take care.
-[01:58.00 --> 01:59.00] -  Here, come on.
-[01:59.00 --> 02:00.00] -  Say bye-bye, Chris.
-[02:00.00 --> 02:01.00] -  Bye.
-[02:01.00 --> 02:02.00] -  Bye, Chris, for.
-[02:02.00 --> 02:04.00] -  Hey, you guys want to come with us?
-[02:04.00 --> 02:05.00] -  What?
-[02:05.00 --> 02:06.00] -  To Candlestick?
-[02:06.00 --> 02:07.00] -  We're going now. Come with us.
-[02:07.00 --> 02:08.00] -  Where are your seats?
-[02:08.00 --> 02:10.00] -  We're up or dead.
-[02:10.00 --> 02:11.00] -  We got a box.
-[02:11.00 --> 02:12.00] -  Come on.
-[02:12.00 --> 02:13.00] -  Do you want us in the box?
-[02:13.00 --> 02:14.00] -  No.
-[02:14.00 --> 02:17.00] -  Well, it's not actually a box.
-[02:17.00 --> 02:19.00] -  It's a private section.
-[02:19.00 --> 02:20.00] -  It's more comfortable.
-[02:20.00 --> 02:21.00] -  Do you want to go?
-[02:21.00 --> 02:22.00] -  Okay.
-[02:22.00 --> 02:25.00] -  Okay, kids in the back.
-[02:25.00 --> 02:28.00] -  Hey, why don't you just put that in your car?
-[02:28.00 --> 02:32.00] -  Yeah, sure.
-[02:32.00 --> 02:33.00] -  Sure.
-[02:33.00 --> 02:34.00] -  We don't have a car.
-[02:34.00 --> 02:36.00] -  Oh, my God.
-[02:36.00 --> 02:37.00] -  What happened?
-[02:37.00 --> 02:38.00] -  I think I got stung by a B.
-[02:38.00 --> 02:39.00] -  You all right?
-[02:39.00 --> 02:40.00] -  Oh, yeah.
-[02:40.00 --> 02:41.00] -  Oh, goodness.
-[02:41.00 --> 02:42.00] -  I'm fine.
-[02:42.00 --> 02:43.00] -  You're not allergic to anything.
-[02:43.00 --> 02:44.00] -  No, no, no.
-[02:44.00 --> 02:45.00] -  Where'd he get you?
-[02:45.00 --> 02:47.00] -  Just like me, back in my head.
-[02:47.00 --> 02:49.00] -  Are you okay?
-[02:49.00 --> 02:50.00] -  Yeah, I'm fine, Christopher.
-[02:50.00 --> 02:51.00] -  Doesn't hurt?
-[02:51.00 --> 02:52.00] -  Christopher, I'm fine.
-[02:52.00 --> 02:53.00] -  Let me see.
-[02:53.00 --> 02:54.00] -  Christopher, sit back.
-[02:54.00 --> 02:55.00] -  Sit back.
-[02:55.00 --> 03:20.00] -  Christopher, sit back.
+[00:00.00 --> 00:10.32] -  Oké, ga ik maar gelijk van wost steken. Wat zijn volgens jou de belangrijkste uitdagingen
+[00:10.32 --> 00:15.00] -  bij het indigeren van mensen met afstand aanwezig maken?
+[00:15.00 --> 00:21.00] -  De cultuur binnen ons het rijf. En zoiets, ik kan de toelichten wat je dan mee bedoeld.
+[00:21.00 --> 00:24.64] -  Ja, we hebben het verleden dat verschillende keer gedaan en Christian is er misschien wel een mooi
+[00:24.64 --> 00:31.64] -  voorbeeld van een mixtap ook. Alleen we hebben Jan-Genoedenaar drie keer een broer ik valing had.
+[00:31.64 --> 00:39.64] -  Dan laat ik in midden waar het ligt. Het is met name bij hoe het iemand hier binnenkomt.
+[00:39.64 --> 00:44.64] -  Die zijn twee keer vier en gemeente binnengekomen en één keer vier jaar sociale wekenplaats.
+[00:44.64 --> 00:51.64] -  Onze inzien zat hij een had er gewoon niet binnen mogen komen. Die zat op een heel aan de level
+[00:51.64 --> 00:57.64] -  die wel zeer om een ubrouw bij een bedrijf net zo'n plaats te worden. En de andere twee hebben gewoon
+[00:57.64 --> 01:05.64] -  heel veel pech mee gehad. Onze beguiding vanuit de gemeente eigenlijk wat te weinig. En dan krijgt de
+[01:05.64 --> 01:10.64] -  werkvroeren knouwen, dan gaat het vertrouwen een klein beetje weg. Dat is wel het grootste aandachtspunt.
+[01:10.64 --> 01:15.64] -  Dat moet weer eventjes herstelt worden. En het beste is dat het in de wedstrijd een doelpend maken.
+[01:15.64 --> 01:19.64] -  Dus de eerste wonen die komt, die moet je wel kloppen.
+[01:19.64 --> 01:27.64] -  Daarbij is het heel erg belangrijk om dan te onderscheiden wat voor paperkingen er allemaal zijn.
+[01:27.64 --> 01:35.64] -  Ik ga er even een volgenslucht doorheen, de legaamlijke paperkingen, psychosociale paperkingen.
+[01:35.64 --> 01:46.64] -  Ja gewoon psychische paperkingen, sorry. Stadshouders en gewoon langdierig werklozen.
+[01:46.64 --> 01:54.64] -  Waar denk jij persoonlijk dat de focus het beste op kan leren voor de organisatie?
+[01:54.64 --> 02:01.64] -  Ik denk dat eigenlijk alles in kans van slaag heeft, behalve legaamlijke beperking.
+[02:01.64 --> 02:06.64] -  Daar kunnen wij merken dat we dan heel beperks zijn in het aantal plaatsen die er zijn.
+[02:06.64 --> 02:12.64] -  Dus ik ga doen dat die legaamlijke beperking is natuurlijk, maar bijvoorbeeld een steckrobot.
+[02:12.64 --> 02:20.64] -  Zou je het allemaal wel bijvoorbeeld kunnen? Een storteerrobot, maar heel veel dingen zijn bij ons fysiek werk.
+[02:20.64 --> 02:27.64] -  Dus er ligt de legaamlijke beperking. Alle andere denk ik allemaal dat er wel een plaatsje voor is.
+[02:27.64 --> 02:38.64] -  Bijvoorbeeld, je psychische problematiek, daar heb je toch iets van een meestal wel wat voorkens voor nodig of een pleiding om daarmee wat beter gezichten om te kunnen gaan.
+[02:38.64 --> 02:42.64] -  Ja, maar nu de afraak is bij de gemeentjes, dus je hebt geloof ik zes phases.
+[02:42.64 --> 02:46.64] -  Ik weet niet of dat het maar zo is, dat zou je dan aan maaretten en aan een klein moeten vragen.
+[02:46.64 --> 02:53.64] -  Mijn principe hebben wij altijd, wij zagen wel eens beschikbaar in het laatste twee phases.
+[02:53.64 --> 02:58.64] -  Dus als iemand psychische storing heeft op wafereen dan ook en op waf voor een benier dan ook.
+[02:58.64 --> 03:06.64] -  Dan komt die app bij ons zoals ons laatst in het traject dat die dus eigenlijk al als een meermeling regaamlijke stuk om het druk te gaan.
+[03:06.64 --> 03:14.64] -  En hij kan echt een maatschipij. Wij hebben niet een sociale werkplaats die in een vroeg stadium die mensen al kan ons vangen.
+[03:14.64 --> 03:20.64] -  Je hebt op je praat denk ik over de trapdreden van een geïnjagdstie.
+[03:20.64 --> 03:26.64] -  Ik weet niet meer hoe dit trapdreden, nu zijn toen als het een 6-6 trapdreden, maar misschien wel je hebt er wel een.
+[03:26.64 --> 03:32.64] -  Nee, je hebt dus 1 en 2 is echt dat jij niet in de maatschipij meedoet. Dat je echt opgezloot zetijdt.
+[03:32.64 --> 03:38.64] -  Dat is gewoon geen sociale contact app zetjes, maar wij zetjes er 3, 4 gaat richting maatschappelijk werk doen.
+[03:38.64 --> 03:41.64] -  En 5, 6 is echt reent gaat sigrichting in de maatschipij.
+[03:41.64 --> 03:43.64] -  Dus het is bij ons gestees 5, 6.
+[03:43.64 --> 03:47.64] -  De beste uitzoek met talent to work en de afgesproken.
+[03:47.64 --> 03:54.64] -  En dan 5, 6 nog steeds heel vooraf goed kijken waar zitten ze dan precies.
+[03:54.64 --> 03:57.64] -  Heel veel beleiding is er vanuit dit meentje wel voor.
+[03:57.64 --> 04:10.64] -  Oké, helder. In hoeveelig denk je dat het repent tegemoed kan komen als het gaat over aanpassing op de werkplak en de werk omgeven?
+[04:10.64 --> 04:21.64] -  En dan denk ik met onze straat die een visie, meer automatisering, meer robotisering, een vlakere aardwaardsel, het ombruist.
+[04:21.64 --> 04:28.64] -  En hopelijk straks ook meer beurst. Misschien wel de plek zouden in de toekomst juist voor die mensen.
+[04:28.64 --> 04:34.64] -  Om dit er heel veel ge-automatiseerd wordt. In die proces kun je maar enkele mensen inzetten.
+[04:34.64 --> 04:40.64] -  Maar dan zijn er een heel kleine stukjes die normaal nu door uitzend krachten ingeweld worden.
+[04:40.64 --> 04:47.64] -  Maar waar niet de druk achter zit. En daardoor kun je een keer zonder mensen een heel mooi plekje geven.
+[04:47.64 --> 04:55.64] -  Een van de vastzetten die in mijn verkennen onderzoeken vling dan voor het weleens komen is het gebruik van leidinggeven onderwerken.
+[04:55.64 --> 05:02.64] -  Om die persoonlijke tijd en aandacht te kunnen bieden aan iemand die een beperking heeft.
+[05:02.64 --> 05:06.64] -  En die op een bepaalde moment dat misschien toch gewoon nodig heeft.
+[05:06.64 --> 05:15.64] -  Hoe zie je dat voor je als het gaat over het stukje aanpassing kunnen doen en tegemoed te komen?
+[05:15.64 --> 05:17.64] -  Ja, dat komt door die robotische ingeën en de auto.
+[05:17.64 --> 05:21.64] -  Nu hebben we verschillende mensen die er totaal geen tijd voor hebben.
+[05:21.64 --> 05:25.64] -  Dus een groep aansturen van 30 of 40 of 50 mensen.
+[05:25.64 --> 05:29.64] -  Als je nu ziet, sorteren we op een mooiste voorbeeld.
+[05:29.64 --> 05:32.64] -  4 jaar geleden hadden we 80 man onder sorteren.
+[05:32.64 --> 05:36.64] -  En nu heb je een heel klein groepje van vier mensen.
+[05:36.64 --> 05:40.64] -  En dan is er nog steeds wel boefde aan een beetje sorteren.
+[05:40.64 --> 05:48.64] -  Maar die man die van de voren voor 60 man stond, dat is niet die geënend die sorteren robot begleid.
+[05:48.64 --> 05:54.64] -  Die man of vrouw die jongens of meiden begleid, die buitenlandsmedewerkers.
+[05:54.64 --> 05:56.64] -  Dat is vaak een mensenmens.
+[05:56.64 --> 06:02.64] -  En die is niet dezelfde als die kapstuit heeft om ook computeropel te aan te sturen.
+[06:02.64 --> 06:05.64] -  En die komen er echt niet in de gat.
+[06:05.64 --> 06:11.64] -  Maar in plaats van 40 of 50 mensen aan sturen krijgen ze echt de tijd.
+[06:11.64 --> 06:14.64] -  Die rol is wel langrijk, maar die wordt heel anders.
+[06:14.64 --> 06:24.64] -  Hoe zou jij omgaan met oprasnel-linegeemende die hier op de werkvloer echt zoiets hebben van leuk idee?
+[06:24.64 --> 06:31.64] -  Ik sta ervoor dat mensen een plek verdienen, maar ik hoef er op persoonlijk niks mee te maken te hebben.
+[06:31.64 --> 06:37.64] -  Maar het en kleren zijn de eventariseren die het wel leuk vindt en niet leuk vindt.
+[06:37.64 --> 06:43.64] -  En dan zou je heel bijzonder zijn als je allemaal het leuk vindt als je allemaal niet leuk vindt.
+[06:43.64 --> 06:44.64] -  Ja, ik weet het wel wel.
+[06:44.64 --> 06:47.64] -  Dat zijn er een stuk of drie, vier die op de werkvloer nu een hele grote groep doen.
+[06:47.64 --> 06:52.64] -  Ja, eigenlijk best zoiets die zouden willen zijn of meer rust houden willen hebben.
+[06:52.64 --> 06:59.64] -  En dat is gewoon persoonlijk zolder een aantal zijn die dat leuk vinden.
+[06:59.64 --> 07:04.64] -  Het is wel het zit geboren in onze missie en visie.
+[07:04.64 --> 07:07.64] -  Die robotisering, automatisering, vlakke arbeidsfilm.
+[07:07.64 --> 07:12.64] -  En dat heeft tot gevolgd dat we daar door mensen met een afstand tot de arbeidsmarkt.
+[07:12.64 --> 07:15.64] -  En wat voor meer en ook meer ruimte kunnen bieden.
+[07:15.64 --> 07:19.64] -  Dus ik krijg bijvoorbeeld een derkijnen en een maart zelf een enkele andere mensen ramon.
+[07:19.64 --> 07:23.64] -  Die krijgen meer de mogelijkheid om daar in te wonen.
+[07:23.64 --> 07:26.64] -  En dan krijg ik ze er ook geen mogelijkheid, want als je vettig man handig sturen.
+[07:26.64 --> 07:32.64] -  En dan heb je eigenlijk geen tijd over om je bruik te doen bij echt tijd voor moet maken.
+[07:32.64 --> 07:34.64] -  Ja, ik snap.
+[07:37.64 --> 07:41.64] -  En dat is een proces, dan moet je nu mee beginnen om te invitergezeren.
+[07:41.64 --> 07:45.64] -  En kijken wie er klaar voor is en langzaam moet dat balletje gaan rollen.
+[07:45.64 --> 07:47.64] -  Ik snap hem.
+[07:47.64 --> 07:56.64] -  Zomge vragen die zijn mede dat het gesprek zich voortgaan zijn al beantwoord.
+[07:56.64 --> 07:58.64] -  Dus ik zit even.
+[08:01.64 --> 08:14.64] -  Ja, ik heb in mijn verkendende gesprek ook vanuit meerdere mensen dat er worden gekregen dat wij onszelf wat meer richting de staat zouden.
+[08:14.64 --> 08:19.64] -  En dat een duurige werkloos zouden moeten profileren omdat dat makkelijkst is.
+[08:19.64 --> 08:23.64] -  Gezien de huidige omstandigheden ben je op het rij.
+[08:26.64 --> 08:29.64] -  Wat maakt dat?
+[08:29.64 --> 08:32.64] -  Wat lewaar ligt de uitdaging erbij voor jou?
+[08:32.64 --> 08:38.64] -  Ik heb de vraag net al een klein beetje eerder benoend in het algemeen, maar...
+[08:38.64 --> 08:39.64] -  Ja, omdat...
+[08:39.64 --> 08:45.64] -  Ik zou niet weten, maar dat zou echt... Dat is verkemmend onderzoek van kleren van maart.
+[08:45.64 --> 08:46.64] -  Ja.
+[08:46.64 --> 08:50.64] -  Van een heer waar we op focusen en zijn het verschillende partijen.
+[08:50.64 --> 09:00.64] -  Ik durf niet te zeggen of dat dat bij jouw bevolgens een staat zouden zijn of iemand die terugkomt vanuit een moeilijke periode is leven.
+[09:00.64 --> 09:02.64] -  En nu weer het redemartswaaien gaat.
+[09:02.64 --> 09:03.64] -  Dat durf ik niet te zeggen.
+[09:03.64 --> 09:06.64] -  Ik denk dat voor allemaal wel een plekje is.
+[09:06.64 --> 09:12.64] -  Wat zou je ook iets zijn als het zou gaan worden?
+[09:12.64 --> 09:14.64] -  Ik heb het ook niet te zeggen.
+[09:14.64 --> 09:17.64] -  Uit de eigenel gaat om de kompetensies van die persoon die binnenkomt.
+[09:17.64 --> 09:20.64] -  Dus stel je voor de in staat zouden hebben die...
+[09:20.64 --> 09:26.64] -  We hebben bijvoorbeeld een serieert gehad die als staat zouden zijn staat zouden.
+[09:26.64 --> 09:33.64] -  En zelf in serie TimeBowel was op universiteerm Niveau.
+[09:33.64 --> 09:39.64] -  En ja, dat klikte betenen kloptemuteen en hij kon heel veel de zoals een staat zouden.
+[09:39.64 --> 09:41.64] -  En dat kloptemuteen.
+[09:41.64 --> 09:45.64] -  Alleen zijn in intensie was het toch anders.
+[09:45.64 --> 09:52.64] -  En dat was gewoon als kanto's ook wijnig mogelijk doen in z'n rauw een kinderenbeest kant opkrijven.
+[09:52.64 --> 09:55.64] -  Dus hij was heel snel, nadat hij op een ander plek dat ook al was.
+[09:55.64 --> 09:58.64] -  Dus hij was heel snel weer trubbe afbiel.
+[09:58.64 --> 10:03.64] -  En bij welke serieertje hadden die ik geweldig mee heeft gehad.
+[10:03.64 --> 10:06.64] -  Nu als je stent apotheekhoudig is.
+[10:06.64 --> 10:09.64] -  Maar daar kan je in Nederland ook.
+[10:09.64 --> 10:11.64] -  Het ligt gewoon naar de persoon die voor je komt.
+[10:11.64 --> 10:13.64] -  Dus ik zou nam niet...
+[10:13.64 --> 10:15.64] -  Om zou je wel de plaatsen in...
+[10:15.64 --> 10:17.64] -  Is het nu de statushouders of...
+[10:17.64 --> 10:20.64] -  Nee, het ligt er aan wat voor persoon krijg je tegenover je?
+[10:20.64 --> 10:22.64] -  Ja, oké, extra pun.
+[10:22.64 --> 10:25.64] -  Ja, als het simpel voorbeeld omdat hem dan iets meer contacten kan opbieden.
+[10:25.64 --> 10:28.64] -  Kult er heel integratie is hier wel een dingetje.
+[10:28.64 --> 10:33.64] -  En dat is geen kritiek, maar gewoon heel simpel gezegd, je kan het gewoon zien.
+[10:33.64 --> 10:36.64] -  Je stapt hier naar beneden toe, wij zitten aan deze table.
+[10:36.64 --> 10:38.64] -  En dat is...
+[10:38.64 --> 10:39.64] -  Dat is er al wat je begrijven.
+[10:39.64 --> 10:41.64] -  Ja, dat is nog een soort.
+[10:41.64 --> 10:44.64] -  Alleen idealiter, we hebben natuurlijk wel dat iedereen kon.
+[10:44.64 --> 10:45.64] -  Ja, maar dat is...
+[10:45.64 --> 10:48.64] -  Weet je wat, dat is zeg maar de utopia die op papier bestaat.
+[10:48.64 --> 10:50.64] -  Maar op het moment dat jij zavonds uitgaat.
+[10:50.64 --> 10:51.64] -  Ga jij...
+[10:51.64 --> 10:53.64] -  Kon het er nu bij een ander groepje staan als niet?
+[10:53.64 --> 10:55.64] -  Ligt er aan hoeveel ik getrokken.
+[10:55.64 --> 10:59.64] -  Dus het is heel mooi dat de maatschappij zeggen we moeten integreren.
+[10:59.64 --> 11:02.64] -  En we moeten in de kantineverdeeling hebben.
+[11:02.64 --> 11:05.64] -  In de praktijk is het...
+[11:05.64 --> 11:06.64] -  Het is een utopia.
+[11:06.64 --> 11:08.64] -  Ja, moeten we die mensen een plek geven.
+[11:08.64 --> 11:10.64] -  Moet je ze vragen en op hem op.
+[11:10.64 --> 11:14.64] -  Maar daar eigenlijk het 100 procent aan het persoon zelf hoe dat die zelf al integreren.
+[11:14.64 --> 11:15.64] -  Pak die die hand vast.
+[11:15.64 --> 11:17.64] -  En wil die integreren of niet.
+[11:17.64 --> 11:20.64] -  Dus op het moment dat jij zavonds in café staat.
+[11:20.64 --> 11:24.64] -  En BNOLI hebt de vervolgens bij een ander...
+[11:24.64 --> 11:25.64] -  Ja, dat zegt genoeg.
+[11:25.64 --> 11:27.64] -  Dus er zit je als mens in elkaar.
+[11:27.64 --> 11:28.64] -  Eerlijk.
+[11:28.64 --> 11:30.64] -  Dus op papier is het helemaal geweldig.
+[11:30.64 --> 11:32.64] -  Alleen de praktijk is gewoon heel wel anders.
+[11:32.64 --> 11:33.64] -  Ja, ik snap je.
+[11:33.64 --> 11:38.64] -  Nou, voor mij is het dus de doos dat ik om daarin zo veel mogelijk te kunnen vast sliteren naar de project toe.
+[11:38.64 --> 11:42.64] -  Ja, dus het is wel belangrijk dat en dat staat ook in werken programma.
+[11:42.64 --> 11:44.64] -  Ik probeer me ook heel vaak te zeggen.
+[11:44.64 --> 11:49.64] -  Als je nu medewerk, rap, stel jij je voor vragen dat het is.
+[11:49.64 --> 11:55.64] -  En als je 50 vast de mens hebt en die 15 doen dat in de maand een keer dan is het ook voldoende.
+[11:55.64 --> 12:01.64] -  Maar in de praktijk is het weer ja waar zit je in de kantine, waar ga je bijzit, waar ga je tussen zitten.
+[12:01.64 --> 12:04.64] -  Mooi voorbeeld is de schoonmaakse.
+[12:04.64 --> 12:09.64] -  Meteen iedereen vinden onze schoonmaakse er geweldig die nu is.
+[12:09.64 --> 12:10.64] -  Waarom?
+[12:10.64 --> 12:13.64] -  Ja, die pakte stoel die er staat en die gaat zitten.
+[12:13.64 --> 12:14.64] -  Ja.
+[12:14.64 --> 12:16.64] -  En doe je dat of doe je dat niet.
+[12:16.64 --> 12:20.64] -  En dat heeft niks te maken met je statushoudiger of ben jij...
+[12:20.64 --> 12:24.64] -  Kom je terug, dat is wie ben jij als persoon.
+[12:24.64 --> 12:30.64] -  Maar zou het zo u het simpelst kunnen zijn als gewoon iets meer daarover communiceren, richting die mensen toe?
+[12:30.64 --> 12:34.64] -  Zo van als een moment als je binnenkomt.
+[12:34.64 --> 12:36.64] -  En dan is het weer geen verwijt.
+[12:36.64 --> 12:37.64] -  Maar ik heb het gezien.
+[12:37.64 --> 12:41.64] -  Dus ik kom hier en dan krijg je zijn hartstikke waarom wel kon.
+[12:41.64 --> 12:45.64] -  Ik kom die bij, ik denk dat ik dat ik dat ik dat ik dat ik dat weet.
+[12:45.64 --> 12:51.64] -  Maar zou dat dan niet ook zo simpel iets bij moeten komen als gewoon het communicatie naar hun toe van...
+[12:51.64 --> 12:57.64] -  Als je wil kon gezellig bij ons het comme praatje doen, dit dat zo of...
+[12:57.64 --> 12:59.64] -  Of is dat weer tevoren?
+[12:59.64 --> 13:03.64] -  Ja, je moet rekenen in die mensen die komen hier voor twee dingen.
+[13:03.64 --> 13:06.64] -  Dat is één geld en twee geld.
+[13:06.64 --> 13:10.64] -  En als je zelf voorde jij als Nederlanders en je gaat...
+[13:10.64 --> 13:13.64] -  Je hebt niet een stage, maar ga je er gaat werken in buitenland.
+[13:13.64 --> 13:17.64] -  Dan is het niet dat je gemiddeld genomen.
+[13:17.64 --> 13:22.64] -  Als je niet dat je gemiddeld genomen overal bij elke tafel moet één aan socialisen zijn.
+[13:22.64 --> 13:23.64] -  Zo werken je niet.
+[13:23.64 --> 13:27.64] -  Je hebt contact met je, je hebt veel mensen die hier in de kantine op de telefoon zitten.
+[13:27.64 --> 13:31.64] -  Ja, dat is misschien wel het enige moment dat ze contact hebben met de familie in buitenland.
+[13:31.64 --> 13:36.64] -  Dus er zitten zoveel meer dingen aan als dat we vaak bestefden.
+[13:36.64 --> 13:40.64] -  En op het moment dat die alleen maar romenees praat,
+[13:40.64 --> 13:44.64] -  jij praat geen romenees, dan kun je integreren bij elkaar.
+[13:44.64 --> 13:46.64] -  Maar dat heeft niets meer integratie te maken.
+[13:46.64 --> 13:49.64] -  Dan moeten er z'n twee jaar in geopplaardingen streken.
+[13:49.64 --> 13:51.64] -  Hebben we de Nederlandse leer?
+[13:51.64 --> 13:53.64] -  Of waar misschien wel romenees?
+[13:53.64 --> 13:55.64] -  Voor de vaste mensen die werken, dat gebeurt dat natuurlijk ook.
+[13:55.64 --> 13:57.64] -  Dus dat is een vast liteer.
+[13:57.64 --> 13:58.64] -  Ja, ja.
+[13:58.64 --> 14:01.64] -  Zal dat het doen, vrijdag wil je daarin gaan.
+[14:01.64 --> 14:04.64] -  Ja, zover als dat het kan, maar het heb ik ergens een keer op.
+[14:04.64 --> 14:05.64] -  Ja, ik snap hem.
+[14:05.64 --> 14:08.64] -  En dan is het altijd wat ben je in een sociale instelling of ben je niet.
+[14:08.64 --> 14:14.64] -  Als je mensen echt vanuit buitenland met de statushoudig die hebben,
+[14:14.64 --> 14:18.64] -  dat wel als taak, dat je bijvoorbeeld niet de totaal eigen maakt,
+[14:18.64 --> 14:19.64] -  kruiter eigen maakt.
+[14:19.64 --> 14:22.64] -  Dan heb je ook kansen dat er geïntergeerd kan worden.
+[14:22.64 --> 14:25.64] -  Nou wij als bedrijf je iets kunnen bieden.
+[14:25.64 --> 14:27.64] -  Op het moment dat er hier iemand binnen komt,
+[14:27.64 --> 14:31.64] -  ik heb geen Nederlandse en daarom is dat maar goed ook in Nederland het geregeld is.
+[14:31.64 --> 14:35.64] -  Dat je hem in mezelf een keer zeven ziet die plomaar Nederlandse haal.
+[14:35.64 --> 14:39.64] -  Ze moeten ergens iets verstaan, en migt dat er zo mooi voor ons van.
+[14:39.64 --> 14:43.64] -  Overigens denk ik dat we daar nog wel een stukje strenger in kunnen zijn.
+[14:43.64 --> 14:45.64] -  Ja, dat kan ik wel.
+[14:45.64 --> 14:46.64] -  Ja, weet je wat het is?
+[14:46.64 --> 14:49.64] -  Ik kon het zelf het Engeland natuurlijk, het is toezien binnenkwanten.
+[14:49.64 --> 14:52.64] -  We moeten ook die taal tutsen eerst halen,
+[14:52.64 --> 14:57.64] -  maar ze zijn al steltien en niks voor want ik spreken het eigenlijk nog steeds niet echt heel goed.
+[14:57.64 --> 14:58.64] -  Ja.
+[14:58.64 --> 15:00.64] -  Eerst schapig, dus door.
+[15:00.64 --> 15:02.64] -  Ja, gaan we door naar tweede theme aan.
+[15:02.64 --> 15:04.64] -  Dat gaat over het stukje draagvlak.
+[15:04.64 --> 15:06.64] -  Dat vind ik op zeggen we heel erg belangrijk,
+[15:06.64 --> 15:10.64] -  omdat we ook weer vanuit meerdere hoeken of voldoers gekomen.
+[15:10.64 --> 15:12.64] -  Dat het daar ook wel is.
+[15:12.64 --> 15:13.64] -  De kort in de geschoten.
+[15:13.64 --> 15:16.64] -  Ja, manier hoe dingen zijn aangepakt.
+[15:16.64 --> 15:21.64] -  Denk je dat een moment heel veel doen, de draagvlak is binnen de organisatie voor de integratie van meerdere werk.
+[15:21.64 --> 15:22.64] -  Wat is het altijd altijd?
+[15:22.64 --> 15:23.64] -  Nee, op dit moment niet.
+[15:23.64 --> 15:27.64] -  Ik kom tot de geschiedenis door die drie laatste...
+[15:27.64 --> 15:29.64] -  Ja, veel juist zeg maar.
+[15:29.64 --> 15:31.64] -  Als je drie keer een deksel op je neus krijgt,
+[15:31.64 --> 15:34.64] -  dan zou je met ons twee jaar of drie jaar verder.
+[15:34.64 --> 15:37.64] -  Dus we hebben een moeilijke period in Mekrona met bouwachter er uug.
+[15:37.64 --> 15:40.64] -  En dat is ook de reden waarom klaren,
+[15:40.64 --> 15:43.64] -  maar dat ik de ondraagd heb gegeven om structeeriel eerst is,
+[15:43.64 --> 15:45.64] -  wat diper in de materie te duiken.
+[15:45.64 --> 15:47.64] -  Wat heb je nou nodig?
+[15:47.64 --> 15:52.64] -  Wie binnen een bedrijf in het leuk welk organisatie zijn die zich met bezig houden?
+[15:52.64 --> 15:55.64] -  Hoe goed zijn die organisaties met bezig?
+[15:55.64 --> 15:58.64] -  En dan zal het wel...
+[15:58.64 --> 16:01.64] -  Dat is eerst onze culturenslaag die je moet krijgen.
+[16:01.64 --> 16:04.64] -  Als je drie keer een donperept gehad gaat,
+[16:04.64 --> 16:06.64] -  dan gaan we dan die vier keer wel weer doen.
+[16:06.64 --> 16:09.64] -  Dan moet je het echt vunde met deel goed aanpakken.
+[16:09.64 --> 16:11.64] -  Ja, we gaan goed gegeven zijn.
+[16:11.64 --> 16:12.64] -  Je hebt gelijk.
+[16:12.64 --> 16:15.64] -  Ik heb specifiek aankart wat jij denkt dat er zorg en weerstandig zijn
+[16:15.64 --> 16:19.64] -  die onderleiding geven de eerste als we over de theme hebben laten.
+[16:19.64 --> 16:22.64] -  Ik denk met name dat onderbouwje voel van de laatste drie.
+[16:22.64 --> 16:23.64] -  Oké.
+[16:23.64 --> 16:25.64] -  Hoe goed het ook inklet.
+[16:25.64 --> 16:31.64] -  De eerste ene of twee gaan ervoor zorgen dat het weer gedragen wordt.
+[16:31.64 --> 16:35.64] -  Op het moment dat de eerste je binnenkomt, we hebben er alles waar gedaan.
+[16:35.64 --> 16:40.64] -  En dan klären maar het hebben de 100% best wel gedaan om deze keer
+[16:40.64 --> 16:44.64] -  een perfect iemand uit te kiezen die bijna alleen maar kans als laag heeft.
+[16:44.64 --> 16:47.64] -  Want dat is de enige manier die je in culturen zo snel zwacht kan maken.
+[16:47.64 --> 16:49.64] -  Stel je voor dat die veel.
+[16:49.64 --> 16:53.64] -  Dan zeg je al die jongens en meiden die op de wijfloer zitten die zie je wel.
+[16:53.64 --> 16:55.64] -  Het is niks voor ons.
+[16:55.64 --> 16:57.64] -  Je kan zo werken.
+[16:57.64 --> 16:59.64] -  Ze zitten mensen in elkaar.
+[16:59.64 --> 17:03.64] -  Als ik het even vanuit een ander perspektief mag belichten,
+[17:03.64 --> 17:05.64] -  dan prachtig voorbeeld wat part noemde is.
+[17:05.64 --> 17:08.64] -  Als ik op het veld sta met 60 gomenen,
+[17:08.64 --> 17:12.64] -  dan krijg je dat iemand bij die maar voor 20% arbeid kan leveren.
+[17:12.64 --> 17:18.64] -  Die aromenen zien dat zij denken dan ook een kandoeker is te gaan.
+[17:18.64 --> 17:20.64] -  Ja, dat passen niet in.
+[17:20.64 --> 17:23.64] -  Ze zijn in dat proces kunnen die mensen ook niet in.
+[17:23.64 --> 17:27.64] -  Dus het lichtraane is het in de status harder die 100% kan werken.
+[17:27.64 --> 17:32.64] -  Of is het iemand die echt in productie heel stuk minder doet?
+[17:32.64 --> 17:35.64] -  Daar is dat vanhandelijk die kan nog bij een bacht op een veld staan.
+[17:35.64 --> 17:40.64] -  Dus het ligt afhankelijk van de persoon die binnenkomt en wat voor 800 heeft
+[17:40.64 --> 17:42.64] -  of dat die wel niet zal slagen.
+[17:42.64 --> 17:47.64] -  Dus ook jij ziet als ik het goed mag aanhemen de waarde in dat er echt
+[17:47.64 --> 17:48.64] -  heel kritisch aan de voorkond wordt,
+[17:48.64 --> 17:51.64] -  het begon voor dat iemand die er wordt te gaan.
+[17:51.64 --> 17:56.64] -  En bijvoorbeeld steken, als we erken helemaal een stek gewoon bij een storteer.
+[17:56.64 --> 17:59.64] -  We hebben nu drie gezondigd.
+[17:59.64 --> 18:02.64] -  We hebben drie storteerrobots die misschien onder vier de bijn
+[18:02.64 --> 18:04.64] -  meenemen, misschien zouden we die 100% van werken moeten doen.
+[18:04.64 --> 18:07.64] -  Dus zijn altijd wat pludjes bij die net niet goed genoeg zijn
+[18:07.64 --> 18:09.64] -  of te klein zijn om de storteerrobots doen?
+[18:09.64 --> 18:14.64] -  Als daar 10 mensen staan of 15 mensen die maar 20% van de arbeid doen.
+[18:14.64 --> 18:15.64] -  Die kan op het gemakken gewoon.
+[18:15.64 --> 18:17.64] -  Perfect, helemaal geweldig.
+[18:17.64 --> 18:20.64] -  En buiten op het veld bij baart zal er nooit zijn.
+[18:20.64 --> 18:24.64] -  Dus het is een naadel, ook een voordeel.
+[18:24.64 --> 18:26.64] -  Het is een gezamenlijke clubje zworen.
+[18:26.64 --> 18:27.64] -  Ja.
+[18:27.64 --> 18:31.64] -  Is dat goed om te integreren?
+[18:31.64 --> 18:32.64] -  Nee.
+[18:32.64 --> 18:36.64] -  Maar als je iemand hebt die maar 20% van de arbeid kan verrichten.
+[18:36.64 --> 18:38.64] -  Dus ook niet leuk.
+[18:38.64 --> 18:43.64] -  En dan wordt het niet motiverend om bij een groep te staan die het wel kan.
+[18:43.64 --> 18:44.64] -  Nee.
+[18:44.64 --> 18:49.64] -  Maar ik kan dan weer persoonlijk bij mezelf als we dan in de rustige periode zetten.
+[18:49.64 --> 18:52.64] -  En de bestaat mogelijkheid om een beetje variatie te passen.
+[18:52.64 --> 18:55.64] -  Dus dat zoeken we er voor op het gemakje mee, maar op het veld.
+[18:55.64 --> 18:56.64] -  Ja, natuurlijk.
+[18:56.64 --> 18:57.64] -  Dan zou dat wel wenselijk zijn.
+[18:57.64 --> 18:58.64] -  Ja.
+[18:58.64 --> 19:01.64] -  Dus als we er op persoonlens niveau in tijd, dus geduurdend.
+[19:01.64 --> 19:03.64] -  Het tijd merkt je wel.
+[19:03.64 --> 19:05.64] -  Is die jongen wel of niet geschikt.
+[19:05.64 --> 19:07.64] -  Ja, Christian, misschien wel een mooi zervol.
+[19:07.64 --> 19:09.64] -  Doe je het ermiddels 15 jaar?
+[19:09.64 --> 19:11.64] -  15 jaar, 16 jaar.
+[19:11.64 --> 19:14.64] -  Dus die is misschien wel een mooi zervol.
+[19:14.64 --> 19:17.64] -  Dat was ook heel erg zoeken waar pas die in.
+[19:17.64 --> 19:22.64] -  En Christian, die moet in een wel einding hebben, er is een structuur.
+[19:22.64 --> 19:24.64] -  En zo lang mogelijk hetzelfde.
+[19:24.64 --> 19:30.64] -  Maar bij iedereen is die comfortabelheid zonen is anders.
+[19:30.64 --> 19:34.64] -  Bij de ene wel afvisteling, de andere juist niet.
+[19:34.64 --> 19:36.64] -  De ene moet rust hebben, de andere juist niet.
+[19:36.64 --> 19:38.64] -  Ja, dat is persoonlijk naar wankerlijk.
+[19:38.64 --> 19:44.64] -  Als ik zo eerlijk tegen jammer als dat het tegen mij gezegd is,
+[19:44.64 --> 19:49.64] -  voorheen in het verleden als we praten over het raagvlak, dan...
+[19:49.64 --> 19:54.64] -  Ja, het is nu beter verhijen, maar daarvoor was het shock.
+[19:54.64 --> 19:57.64] -  Hoe zo beter verhijen, Peter.
+[19:57.64 --> 20:02.64] -  Het verhijen heeft het als te goed, is het werk van shock overgenomen.
+[20:02.64 --> 20:04.64] -  Ik zeg ik wel het goed.
+[20:04.64 --> 20:05.64] -  Ja, wel.
+[20:05.64 --> 20:09.64] -  Peter van de uitzend krijgt de regelen.
+[20:09.64 --> 20:11.64] -  En voorheen doet shock dat toch?
+[20:11.64 --> 20:14.64] -  Ja, maar shock die had een veel...
+[20:14.64 --> 20:18.64] -  Als je kijkt naar mensen tot afstand van de aangemaar,
+[20:18.64 --> 20:21.64] -  bijvoorbeeld migdald, begeleiden, Christian, duw ik Peter er nog niks in.
+[20:21.64 --> 20:24.64] -  Dat is ook zijn kapstiteit niet.
+[20:24.64 --> 20:26.64] -  Nee, dus ook zijn waarde niet?
+[20:26.64 --> 20:28.64] -  Nee, maar dat is nu marit.
+[20:28.64 --> 20:30.64] -  Dat vind ik wel raar dan, want o, daar heb ik een paar geleiden.
+[20:30.64 --> 20:35.64] -  Nee, wat ik meisje gezegd was, vroeger werd dit die mensen aangeomen.
+[20:35.64 --> 20:40.64] -  En toen werd het eigenlijk gewoon benoen van ja dat was dan weer iets wat wij vanuit...
+[20:40.64 --> 20:41.64] -  Contor werd bedacht.
+[20:41.64 --> 20:43.64] -  En daar werd ze maar gewoon bij ons weggezet, zonder...
+[20:43.64 --> 20:46.64] -  Ja, en dat was shock als al de bilijder in.
+[20:46.64 --> 20:47.64] -  Ja, ja.
+[20:47.64 --> 20:49.64] -  En nu is dat marit, maar het is dat.
+[20:49.64 --> 20:50.64] -  Ja.
+[20:50.64 --> 20:53.64] -  Peter doet dat niet.
+[20:53.64 --> 20:57.64] -  Er zit ook niet in, dat is ook niet een je die waarde heeft die het leuk vind.
+[20:57.64 --> 21:02.64] -  Nee, maar hij gaf wel aan dat ze nu wel ook bij hem worden weggezet.
+[21:02.64 --> 21:03.64] -  Zet maar.
+[21:03.64 --> 21:06.64] -  Die die je daar hebben hier.
+[21:06.64 --> 21:08.64] -  Kun je nu hier dan bij hem niet gezet worden?
+[21:08.64 --> 21:10.64] -  Als Christian tevallig...
+[21:10.64 --> 21:12.64] -  Ik denk Christian, dan meer dan hebt dan...
+[21:12.64 --> 21:17.64] -  Ja, als je tevallig bij hem in zijn team zit op dat moment dan even haar mee te dealen.
+[21:17.64 --> 21:20.64] -  Dus op het moment dat hij daar dan moet hij daar wel van vinden.
+[21:20.64 --> 21:23.64] -  Zoals er maar overkomt, heeft hij dat altijd mee te dealen.
+[21:23.64 --> 21:31.64] -  Dat is bijna ook, want Christian wil als kan hier en kijk bij het stecken steken.
+[21:31.64 --> 21:35.64] -  Dat is niet beter zo'n rolborelijkt.
+[21:35.64 --> 21:39.64] -  Dat is ramon, die is muziek, dus dat is nu Claudia.
+[21:39.64 --> 21:47.64] -  Maar Peter heeft niks te zeggen over een mixtaf of marit die je net hoort.
+[21:47.64 --> 21:51.64] -  De zij is van holijk voor die mensen te glijden en goed meer te zetten.
+[21:51.64 --> 21:55.64] -  Nee, waar ik heen ging was dat ik eigenlijk richting een oplossing aan het zoek was.
+[21:55.64 --> 22:01.64] -  Zet maar, je moet je zelf voorstellen dat ze als je structereel zelf wijs gaat.
+[22:01.64 --> 22:05.64] -  En iemand is het daar niet meer heen, of die vindt het niet fijn.
+[22:05.64 --> 22:10.64] -  Maar dat er eigenlijk geen mogelijkheid is om daar een andere oplossing voor te zoeken.
+[22:10.64 --> 22:12.64] -  Dus dat is ook doel.
+[22:12.64 --> 22:14.64] -  Dus stel het proces tot altijd voorheen is geweest.
+[22:14.64 --> 22:16.64] -  Eerst bij Jacques en nu bij Peter verhaai je van,
+[22:16.64 --> 22:21.64] -  ook iemand met afstand tot rauwetje mag komen binnen of met een rugzakje om het zo maar even te bekennen beschrijven.
+[22:21.64 --> 22:23.64] -  En die wordt altijd structereel daar weggezet.
+[22:23.64 --> 22:25.64] -  Nee, dat wordt nooit een niks aan het Peter.
+[22:25.64 --> 22:27.64] -  Dus ik weet niet wie dit heeft.
+[22:27.64 --> 22:30.64] -  Dan zal een communicatiekroblem in binnen ons bedrijven.
+[22:30.64 --> 22:31.64] -  Ik denk het.
+[22:31.64 --> 22:39.64] -  Kijk, dat Peter is wel iemand die voor zijn gevoel alles hier in Rotterdam is.
+[22:39.64 --> 22:45.64] -  Dus die zou heel graag de heenstukat moet onder een stoel bewonkig gestoken.
+[22:45.64 --> 22:48.64] -  De taak van Jacques over het willen nemen.
+[22:48.64 --> 22:51.64] -  Die taak van Jacques die is, die is langgedilgeerd.
+[22:51.64 --> 22:53.64] -  Die zijn in een stikjes gehakt.
+[22:53.64 --> 22:56.64] -  En Jacques is een onderdeel van de aardwaards die maar Peter ook een onderdeel van uitmaakt.
+[22:56.64 --> 22:58.64] -  Dus ze zijn 6 mensen.
+[22:58.64 --> 23:00.64] -  En dat zijn er met een 7.
+[23:00.64 --> 23:07.64] -  Maar het is niet dat hij daar meer of minder doet als baard of als Jacques zelf of als marit of als Peter die zit ook in de groepje.
+[23:07.64 --> 23:09.64] -  De rikhein, die zit in dat groepje.
+[23:09.64 --> 23:10.64] -  Ja, koo.
+[23:10.64 --> 23:16.64] -  En mensen tot daar was marigd, afstand slaavers maar één we hebben de laatste twee jaar niemand gehad.
+[23:16.64 --> 23:21.64] -  En er gered twee die we nog hebben, richte op een Christian.
+[23:21.64 --> 23:24.64] -  En die oor op geluid 100% door maakt het.
+[23:24.64 --> 23:25.64] -  En die er beter.
+[23:25.64 --> 23:27.64] -  Waarom is het lang weg geweest?
+[23:27.64 --> 23:32.64] -  Dat je het niet de kapititeit in de kompetensies en de zorg die nodig zijn voor zullen ik mensen.
+[23:32.64 --> 23:38.64] -  Ik denk dat hij daarmee dan denk ik, proberen ze zeggen dat die bang was, dat mocht er dan nieuwe mensen met afstand tot daar was.
+[23:38.64 --> 23:41.64] -  Maar ik mocht de eigenhomen dat ze dan meer gelijk onder hen komen.
+[23:41.64 --> 23:44.64] -  En die komen in de volledig was er ook niet onder hem.
+[23:44.64 --> 23:47.64] -  En die zorg nooit onder hem, want dat is wat baard en klaren.
+[23:47.64 --> 23:49.64] -  Die zijn langs de materiën voor het daarin zeren.
+[23:49.64 --> 23:53.64] -  Wie, kijk als hij ze pingere mogen schreekt, dan zeg hij, ja ik lood al maar je moet wel bijzonder.
+[23:53.64 --> 23:56.64] -  Want één heeft die nooit niks om te geven.
+[23:56.64 --> 23:59.64] -  En twee heeft het nog wat gedaan.
+[23:59.64 --> 24:01.64] -  Misschien kan ik hem ook even.
+[24:01.64 --> 24:04.64] -  Nee, je moet doen wat je gaat doen.
+[24:04.64 --> 24:08.64] -  En dan moet je het niet doen.
+[24:08.64 --> 24:12.64] -  En maandandhandel, ik kan het de begin van steeds meer al Mainzet verandering komen.
+[24:12.64 --> 24:18.64] -  Ik merk dat hij niks te maken met de vragen, maar bijvoorbeeld om als voorbeeld te nemen lotten.
+[24:18.64 --> 24:25.64] -  Daar zijn ik klaar eigenlijk van, ik denk niet dat hij graag een interview met jou weer over wil gaan doen.
+[24:25.64 --> 24:28.64] -  Dat zijn niet echt één van de kartrekkers opgebied van de tema.
+[24:28.64 --> 24:31.64] -  Maar ik kan elkaar dus tegen op de rimplaar.
+[24:31.64 --> 24:34.64] -  Het is van, oh ik wil eigenlijk wel graag een interview doen.
+[24:34.64 --> 24:38.64] -  Het vroeg van, oh kom dat er niet een keer dan je want klaar die dag van misschien toch niet.
+[24:38.64 --> 24:41.64] -  Ja, maar dat is dan meer dat klaar niet begrijp door lood al het is.
+[24:41.64 --> 24:43.64] -  Ja, misschien in de groeplanden.
+[24:43.64 --> 24:45.64] -  Ik doe samen met Arjan de groeplanden.
+[24:45.64 --> 24:52.64] -  In die groeplanden, daar merk je het beste hoe dat iemand in zweltjes zit en wel een kant dat hij op wil.
+[24:52.64 --> 24:53.64] -  Ja.
+[24:53.64 --> 24:55.64] -  En dat deed ons verleden de Arjan samen jellen.
+[24:55.64 --> 24:57.64] -  Dat is nu Arjan en ik.
+[24:57.64 --> 24:58.64] -  Ja.
+[24:58.64 --> 25:04.64] -  Ik ben vroeger de week de altijd en kijk wat iemand zelf in zijn hoofd heeft wat een ander denkt.
+[25:04.64 --> 25:06.64] -  Ik zou er er altijd al heel bijzonder.
+[25:06.64 --> 25:10.64] -  Soms spreken ze niet bij elkaar maar weet ze wel wat een ander denkt.
+[25:10.64 --> 25:12.64] -  Ja ik snap even.
+[25:12.64 --> 25:18.64] -  Maar als je kijkt naar een gezoon die het heel interessant vindt dan is klare maart sowieso.
+[25:18.64 --> 25:22.64] -  Die zijn cultuurdraagers die vinden het belangrijk dat mensen op een goede plek zitten.
+[25:22.64 --> 25:28.64] -  Dat is al heel mooi dat hun de trekt gaan trekken.
+[25:28.64 --> 25:34.64] -  En dan heb je een zak, een maart zelf, een derkhein, een werkvloeg, een lotte.
+[25:34.64 --> 25:38.64] -  Dat zijn drie, vier persoon, dan weet we gewoon daar zit dat goed.
+[25:38.64 --> 25:40.64] -  Dat klopt.
+[25:40.64 --> 25:46.64] -  En moet je meer hebben als van mijn 55 vast mensen zijn?
+[25:46.64 --> 25:52.64] -  3, 4, 5 mensen hebben die zo zo open voor staan. Dat is voldoende, ruim voldoende.
+[25:52.64 --> 25:56.64] -  Het is niet dat we nemen 20 mensen van buiten afgenaalden.
+[25:56.64 --> 26:00.64] -  Nee, het is denk ik dat het belangrijkste is dat die mensen niet kunnen merken bij de rest.
+[26:00.64 --> 26:02.64] -  Dat is niet wedstrijd.
+[26:02.64 --> 26:04.64] -  Dat is dat gevoel.
+[26:04.64 --> 26:06.64] -  Ik krijg van andere mensen.
+[26:06.64 --> 26:08.64] -  Ja, in de cultuur.
+[26:08.64 --> 26:10.64] -  Ik ga hem in het begin al aan.
+[26:10.64 --> 26:12.64] -  In de cultuur wordt onze belangrijkste stap doorweer in cultuur.
+[26:12.64 --> 26:18.64] -  Dit is een beetje beseffen dat we het rekt toch weer, onderweg ze hebben drie keer echt een flinke decks op.
+[26:18.64 --> 26:20.64] -  Als we het langzaam weer die kant op gaan.
+[26:20.64 --> 26:22.64] -  En dat kan trekken ook, want we krijgen meer tijd.
+[26:22.64 --> 26:24.64] -  Mensen merken het al op de werkvloer.
+[26:24.64 --> 26:27.64] -  We afgelopen drie weken de drukste weken van een jaar gehad.
+[26:27.64 --> 26:29.64] -  Een tochzade mensen die gewoon tijd over hebben.
+[26:29.64 --> 26:31.64] -  Nou ja, dat is bijzonder.
+[26:31.64 --> 26:32.64] -  Daar komen we door een ding.
+[26:32.64 --> 26:34.64] -  O, het is een materiaal balderering.
+[26:34.64 --> 26:36.64] -  Ja.
+[26:36.64 --> 26:42.64] -  In andere ding is de facilitatie dan de richting leidinggevenen.
+[26:42.64 --> 26:48.64] -  En daarbij doel ik dan op hulp mijn lust zoals het zij schoeling.
+[26:48.64 --> 26:54.64] -  Of tools om om te kunnen gaan met de hergelijke opstaak om bij het begeleiden van die mensen.
+[26:54.64 --> 26:58.64] -  Wat denk jij dat ze nodig hebben?
+[26:58.64 --> 27:02.64] -  Nou, het belangrijkste is als klarenmaar.
+[27:02.64 --> 27:04.64] -  Het trek duidelijk en mewelijke betijden.
+[27:04.64 --> 27:08.64] -  We gaan werken en waardappers gaan inzetten en wie de buddie zijn.
+[27:08.64 --> 27:13.64] -  De belangrijkste schoeling die ze nodig hebben is er eigenlijk bijzijnzen.
+[27:13.64 --> 27:18.64] -  Ik denk dat ze een petervrij heeft bijvoorbeeld een iemand van de afstand van de aardwaars.
+[27:18.64 --> 27:22.64] -  Maar ik heb het een beetje eit geragd in misschien eerst wat drie aardwaars nodig heeft.
+[27:22.64 --> 27:25.64] -  Omdat u erop goed te laten voldoen.
+[27:25.64 --> 27:29.64] -  Als je een derkende laatung, je hebt vroeger alleen maar in sociale werkplaats gewerkt.
+[27:29.64 --> 27:37.64] -  Met in alle kamer waar we 40, 50 mensen werken om met de afstand op de aardwaars.
+[27:37.64 --> 27:41.64] -  Als je deur je deur je de laat doen, dan heeft je echt een keurzen nodig.
+[27:41.64 --> 27:44.64] -  Dan zit je weer als een vins in het water.
+[27:44.64 --> 27:48.64] -  Dus we moeten eerste talenten en die hebben we inmiddels wel een lot in het begin.
+[27:48.64 --> 27:53.64] -  Die daar wel graag doet een maaret die er ook heel goed kan.
+[27:53.64 --> 27:56.64] -  Een shack die er heel goed kan, daar is het weer tijd creëren.
+[27:56.64 --> 28:01.64] -  Een shack kan daar heel goed, alleen die moet die altijd vrij kunnen maken.
+[28:01.64 --> 28:04.64] -  En dan geldt trouwens bij iedereen.
+[28:04.64 --> 28:07.64] -  Ja, klopt. Dat is iets wat striktig heel terugkomen.
+[28:07.64 --> 28:13.64] -  Wat is jou volgens jou het meest effectief verbonneer om bewust voor drink te creëren in een treepland?
+[28:13.64 --> 28:15.64] -  En onder het personeel?
+[28:15.64 --> 28:18.64] -  En al een keer gaan halen.
+[28:18.64 --> 28:21.64] -  Zorgen, heel langer te maken in vizier.
+[28:21.64 --> 28:24.64] -  We moeten ook met zee en rood bodiceering daardoor komt er aardbaar tot...
+[28:24.64 --> 28:32.64] - ...aast aan het aardbaar is maarigd, bocht een logischer iets omdat je als je er robelt hebt die gaat in 90% van die gevallen kan die alles doen.
+[28:32.64 --> 28:37.64] -  Alleen die klussjes worden daardoor heel makkelijk door z'n leuke mens gedaan.
+[28:37.64 --> 28:41.64] -  Maar al een respect, dan moet je juist geen buitlandse medewerk hebben.
+[28:41.64 --> 28:47.64] -  Want dat zijn piquisendale en die kunnen langs aan die dingen opvullen.
+[28:47.64 --> 28:51.64] -  Ben je nu bang dat die eraanhaling wegvalt als jij teruggedreerd hebt op het rij?
+[28:51.64 --> 28:56.64] -  Als je teruggedreerd hebt met de dune zo lang iemand pak die handen, ik wil op.
+[28:56.64 --> 28:59.64] -  Bitter dat heel zeker?
+[28:59.64 --> 29:02.64] -  Ja, oké.
+[29:02.64 --> 29:06.64] -  Kijk, het aantal ik is het wel simpel.
+[29:06.64 --> 29:09.64] -  Een bedrijf lijden heeft een heel goed competensie nodig.
+[29:09.64 --> 29:12.64] -  En hoe is het niet allemaal...
+[29:12.64 --> 29:19.64] -  Dat stukje van ondernemende onderneming, dat is een mooi proces en niet iedereen hoeft alles te kunnen.
+[29:19.64 --> 29:24.64] -  Ik hoef de vroeger niet alles te kunnen, maar ik ben maar klein bedraad dus we moeten wel alles kunnen.
+[29:24.64 --> 29:31.64] -  En dat kon ik niet, dus het eerst wel ik deed, was mensen binnenhalen die de competensie die ik niet had wel had.
+[29:31.64 --> 29:34.64] -  Of die in het in bewaizen van.
+[29:34.64 --> 29:44.64] -  Dat geldt voor een sociale domain en dat geldt voor het financiële domain en dat geldt voor het teelt domain alles wel opgepakt.
+[29:44.64 --> 29:56.64] -  Ja, denk jij dat er een internet job coach nodig is binnen het tepland om de begeleiding te kunnen bieden aan.
+[29:56.64 --> 30:08.64] -  Oké, dit is eigenlijk met specifiek tot mens belastend tot armeers, maar technisch gezien zouden de job coach ook gewoon andere mensen kunnen helpen binnen het bedrijf die ook tegen frustraties aan lopen of een omgeving.
+[30:08.64 --> 30:10.64] -  Maar dat gaat even maar het zijn en morgen.
+[30:10.64 --> 30:12.64] -  Die ook echt de job coach rol op zich gaat neer.
+[30:12.64 --> 30:14.64] -  Oké, ja.
+[30:14.64 --> 30:18.64] -  Dus die gaat eigenlijk van het dagdagelijks, zoals ze al mooi weg.
+[30:18.64 --> 30:20.64] -  Alles wat dagdagelijks is laatst los.
+[30:20.64 --> 30:22.64] -  Oké.
+[30:22.64 --> 30:24.64] -  En dan creëren jullie de tijd in Jagenda.
+[30:24.64 --> 30:28.64] -  En dat stukje van cultuur, wat ze samen met Klaar heeft gedaan.
+[30:28.64 --> 30:30.64] -  Dan kan ze dan veel beter oppakken.
+[30:30.64 --> 30:32.64] -  Dat doet wel bij de vaste medoherkens.
+[30:32.64 --> 30:37.64] -  Dus dat zit iets van misschien wel 15 mensen onder maart.
+[30:37.64 --> 30:42.64] -  Micht op en Christian zijn daar een mooiste voorwelden van waarom ze die heeft.
+[30:42.64 --> 30:46.64] -  Daar komt omdat zij wel de aandacht geeft, zonder de het vraag, geeft zij de aandacht.
+[30:46.64 --> 30:50.64] -  En die probeert die jongens en mij de te begleiden.
+[30:50.64 --> 30:51.64] -  Dat geldt ook voor de buitenlands medewijker.
+[30:51.64 --> 30:52.64] -  Zij geeft wel die aandacht.
+[30:52.64 --> 30:54.64] -  Dus daar zit gewoon van hier, hoe misschien keur is dat?
+[30:54.64 --> 30:55.64] -  Er zorgt er zorgd uit.
+[30:55.64 --> 30:56.64] -  Ja.
+[30:56.64 --> 31:03.64] -  En dat is wel de geden, dus primair de geden die de rekenhoofrand hoort wordt.
+[31:03.64 --> 31:07.64] -  En Klaar er zorgd uit, hoe je mee om maart om dat samen te doen.
+[31:07.64 --> 31:11.64] -  Hoofrand hoort wordt voor eigenlijk alles met betrekken te daarbij.
+[31:11.64 --> 31:15.64] -  Dus ook de scholieren staan nu bijvoorbeeld, ze staan niet te stecken.
+[31:15.64 --> 31:17.64] -  Maar ze staan nu met de steckroopsel.
+[31:17.64 --> 31:18.64] -  Waarom?
+[31:18.64 --> 31:21.64] -  Die hebben de technische oplairing waarom laatst ze dan in goede schandaar stecken.
+[31:21.64 --> 31:22.64] -  Ja.
+[31:22.64 --> 31:24.64] -  En dat is gewoon...
+[31:24.64 --> 31:26.64] -  Ja, het is logisch.
+[31:26.64 --> 31:29.64] -  Het is logisch, het is simpel nadenken, maar waarom gebeurt dat niet?
+[31:29.64 --> 31:35.64] -  Nou, dat trei ik dan ben ik wel helemaal in die cultured, ben ik wel in de fine maasigheid,
+[31:35.64 --> 31:38.64] -  alles weer terug aan het geven van heel mooi, het is een ding daar als gewoon logische.
+[31:38.64 --> 31:39.64] -  Maar nou, morgen beginnen.
+[31:39.64 --> 31:41.64] -  Niet schijven, niet zeggen, doen.
+[31:41.64 --> 31:43.64] -  Best naar Span komt later wel.
+[31:43.64 --> 31:45.64] -  Nee, was er gepiekt.
+[31:45.64 --> 31:46.64] -  Ehm...
+[31:46.64 --> 31:47.64] -  Ehm, het erger is, dat is ver.
+[31:47.64 --> 31:50.64] -  Het is gescheven, het is gescheven, bissespand.
+[31:50.64 --> 31:52.64] -  Dat staan heel duidelijk de mission in de visien.
+[31:52.64 --> 31:55.64] -  We hebben tevallig van de week hebben we besproken aan de managementafel.
+[31:55.64 --> 31:59.64] -  En dan wordt er een gesteld van enzoven en vragen.
+[31:59.64 --> 32:01.64] -  Ik ga het een paar krijes opmerkingen.
+[32:01.64 --> 32:05.64] -  En dan zeg ik, wat is het nou veranderd in de jaar?
+[32:05.64 --> 32:08.64] -  We hebben aanpassingen gedaan, we hebben alleen maar woorden aangepast.
+[32:08.64 --> 32:10.64] -  Wat is nou het fundement?
+[32:10.64 --> 32:13.64] -  We hebben het al een punt gehoord.
+[32:13.64 --> 32:15.64] -  Tuurlijk wel, de week is wel.
+[32:15.64 --> 32:18.64] -  We weten goed zat dat ik het altijd over heb, het gaat niet over het schrijven.
+[32:18.64 --> 32:21.64] -  Dat gaat niet over het zeggen, het gaat niet over dat je zegt en schrijft.
+[32:21.64 --> 32:25.64] -  De mensen moeten laten integreren in de katine.
+[32:25.64 --> 32:27.64] -  Dan moet je doen.
+[32:27.64 --> 32:32.64] -  Dus je zet die stil neer, reeft die hand en je vraagt dat.
+[32:32.64 --> 32:35.64] -  En het doet dat welke het repeteren niet.
+[32:35.64 --> 32:38.64] -  Maar je opschrijft dat maar je zegt, maar gewoon te doen te laten zien.
+[32:38.64 --> 32:40.64] -  Heb je kan zo dat het gekopiert wordt?
+[32:45.64 --> 32:48.64] -  Oké, het laatste vraag over wat een stukje communicatie.
+[32:48.64 --> 32:54.64] -  Hoe zou jij de communicatie binnen de organisatie het liefste zien?
+[32:54.64 --> 32:58.64] -  En wat is denk je daarvoor nodig om dat te verbeteren?
+[32:58.64 --> 33:05.64] -  Het plan was maar het ene kleine hand uitwerken zijn.
+[33:05.64 --> 33:10.64] -  Dus dat heeft niet alleen te maken met mensen die in afstand hebben tot de arbersmaar.
+[33:10.64 --> 33:12.64] -  Maar dat heeft ook te maken met de scholieren.
+[33:12.64 --> 33:14.64] -  Dus dat is gewoon de cultuurbeschrijving.
+[33:14.64 --> 33:20.64] -  De moment dat die de rekker om te lagen is en ook dat stukje heen vorm gekregen op papier.
+[33:20.64 --> 33:24.64] -  Dan moeten we het presenteren en erhalen en erhalen en erhalen.
+[33:24.64 --> 33:26.64] -  Dat blijft gewoon erhalen.
+[33:26.64 --> 33:29.64] -  Het is eigenlijk hetzelfde met automatisering en rode botusering.
+[33:29.64 --> 33:32.64] -  6 jaar geleden zijken het was een zwakte voor ons bedrijf.
+[33:32.64 --> 33:35.64] -  Dus als je dan een soort al die is, dan zeg je het is een zwakte.
+[33:35.64 --> 33:39.64] -  Maar dat is op dit moment, mensen tot een die in afstand hebben tot de arbersmaar.
+[33:39.64 --> 33:47.64] -  Omdat het nu statushoudig zijn of mensen die maar 20% van de functienelijker tijd nog hebben.
+[33:47.64 --> 33:52.64] -  Er is geen draagvlak van wegen de ervaring die we hebben gehad.
+[33:52.64 --> 33:54.64] -  Nou het eerst wel om te pakken.
+[33:54.64 --> 33:55.64] -  Is dat een draagvlak bekom?
+[33:55.64 --> 34:06.64] -  Welke stapje denk je dat er daarbij nodig zijn om de medewerker binnen twee planten confetabel te laten voelen met de bijne verhandeling?
+[34:06.64 --> 34:10.64] -  Een meeneem in het verhaal en twee die eerste moeten succes zijn.
+[34:10.64 --> 34:12.64] -  Die eerste met echte succes zijn.
+[34:12.64 --> 34:18.64] -  Dus dan moet je heel goed overnagdaad daar moeten klaren en maart heel goed overnagdaad hebben.
+[34:18.64 --> 34:26.64] -  Hoe denk je dat je zo gemotiveerd had als dat niet een vlekloos een succes van al gaat zijn?
+[34:26.64 --> 34:27.64] -  Dan eerst de keer.
+[34:27.64 --> 34:32.64] -  Nou ja, je moet ze meeneemend uit een onderdeel van de missie en de visie.
+[34:32.64 --> 34:36.64] -  En dan staat er ook beschrijven.
+[34:36.64 --> 34:40.64] -  En als je afwijk van je missie en de visie naar een en een velder, dan dan dan dan meen je als ondernemer niet goed bezig.
+[34:40.64 --> 34:45.64] -  Dus je moet elke keer binnenmanisch doen, je moet het landen, elke keer moeten er iedereen...
+[34:45.64 --> 34:48.64] -  Het kan actie zijn als persoon er niet meer heens bent hè.
+[34:48.64 --> 34:49.64] -  Dan mag je.
+[34:49.64 --> 34:51.64] -  Dus persoon mag je daar niet meer eens zijn.
+[34:51.64 --> 34:55.64] -  Maar je moet er wel achter staan als het een van de wadens is van je bedrijf.
+[34:55.64 --> 34:59.64] -  Ik ben met sommige dingen ook wel niet eens.
+[34:59.64 --> 35:03.64] -  Oemdang ze benijen bedrijf is. Maar voor bedrijf vind ik wel belangrijk.
+[35:03.64 --> 35:11.64] -  Ik denk dat er in de heudige staat zoals nu is voldoende kennis, vadergeerden en middelen zijn.
+[35:11.64 --> 35:14.64] -  Om de vroelingen ergens gafsvol te kunnen implementeren.
+[35:14.64 --> 35:17.64] -  En mocht dat niet het geval zijn.
+[35:17.64 --> 35:20.64] -  Waar moet het er wel nog? Waar schitterten dat te kort hebben?
+[35:20.64 --> 35:22.64] -  Die zijn we nu nog niet.
+[35:22.64 --> 35:24.64] -  Daarom is klaren, mag het bezig met al die puntsjes.
+[35:24.64 --> 35:30.64] -  Ze zetten waar moeten we dat mensen vanaan halen en dan de kantoor vanuit welke middelen van de wadens zijn.
+[35:30.64 --> 35:32.64] -  En we moeten afvindigd in de reactie voorgegeven worden.
+[35:32.64 --> 35:35.64] -  Ja, want nu moet we nog niet doen.
+[35:35.64 --> 35:39.64] -  Dan moeten we de eerste tijd vrijmaken en dan moeten we het bij de goede mensen liggen.
+[35:39.64 --> 35:42.64] -  Dat is al belangrijk. En hebben we die dan de kursen snelig?
+[35:42.64 --> 35:43.64] -  Ja, om het wapen te doen.
+[35:43.64 --> 35:45.64] -  En die ruimte hebben we ook al...
+[35:45.64 --> 35:46.64] -  Die is er.
+[35:46.64 --> 35:48.64] -  Voor een beetje dat ook. Die heb je wel gewoon.
+[35:48.64 --> 35:50.64] -  Die budgeteren wij niet in.
+[35:50.64 --> 35:55.64] -  Maar je hebt het wel in je hoofd. In kursen is een kursen in de groeplanden.
+[35:55.64 --> 36:00.64] -  Daar is ruimte voor elke individueel groepland. Daar is geld beschikbaar om te groeien.
+[36:00.64 --> 36:05.64] -  En daar zijn er ook wel budgetten die niet op gemaakt worden.
+[36:05.64 --> 36:08.64] -  En waar je scharen dat onder kursen zijn.
+[36:08.64 --> 36:09.64] -  Ja, oké.
+[36:09.64 --> 36:11.64] -  Onderikeling.
+[36:11.64 --> 36:12.64] -  Ja, ik snap.
+[36:12.64 --> 36:13.64] -  Oké.
+[36:19.64 --> 36:23.64] -  Stikken we zijn er toch al een flink wat vragen beantwoord hier.
+[36:29.64 --> 36:31.64] -  Ja, het is net als je zegt, speekt al stuur van links van reen ziens.
+[36:31.64 --> 36:34.64] -  Soms heb je een vraag waarbij je niks van de verhoorten.
+[36:34.64 --> 36:38.64] -  Soms heb je er drie die je denk hier allemaal beantwoord door.
+[36:38.64 --> 36:45.64] -  Ja, absoluut.
+[36:54.64 --> 36:59.64] -  Hoe belangrijk denk je dat het is om meedenwerkers met wat standeldarvers mag die binnenop te nemen?
+[36:59.64 --> 37:02.64] -  Ja, hij is altijd belangrijk geweest.
+[37:02.64 --> 37:06.64] -  Alleen waar je mij het is, hebben we die drie donpers gehad.
+[37:06.64 --> 37:09.64] -  En dat was de laatste, was net vol corona.
+[37:09.64 --> 37:14.64] -  En dan maak je de paar moeilijke jaar, ik had vanwege corona en de bouw.
+[37:14.64 --> 37:17.64] -  En dat had er dus voorwijnen gegaan gedaan.
+[37:17.64 --> 37:21.64] -  En de beeld dat blijven leven van die laatste twee serieus, er was drie kinex.
+[37:21.64 --> 37:25.64] -  De eerste serie die we hadden, er was een geweldig event.
+[37:25.64 --> 37:29.64] -  Maar iedereen heeft een steeds beeld die je wel weggegaan.
+[37:29.64 --> 37:32.64] -  Ja, dat klopt hoor, maar er zijn ambitie wel zillanders als hier.
+[37:32.64 --> 37:36.64] -  Dus dan mag je juist als een plusie, maar die werkt niet als een plusie gezien?
+[37:36.64 --> 37:38.64] -  Nee, ik snap.
+[37:38.64 --> 37:40.64] -  En dat komt ze wel terug, hoor.
+[37:40.64 --> 37:48.64] -  Denk je dat het succes van alvang Christian beter gebruikt zou kunnen worden om marketing wil ik het niet noemen.
+[37:48.64 --> 37:52.64] -  Maar om een raagvlak te stijten?
+[37:52.64 --> 37:58.64] -  Nee, want Christian, die valt heel vaak terug in zijn beperking, in zijn verslaving.
+[37:58.64 --> 38:04.64] -  Dus dat wordt ook wel eens gezegd en enterecht van, gaan we daar niet te ver mee.
+[38:04.64 --> 38:07.64] -  We moeten soms we niet afstand te nemen.
+[38:07.64 --> 38:10.64] -  We moeten zeggen, die was de laatste.
+[38:10.64 --> 38:13.64] -  Dan zeg ik altijd, ja, het is wel een leuke naarweg.
+[38:13.64 --> 38:16.64] -  Als wij hem nu losladen, we waren er moeten reestende losgelaten in zijn familie.
+[38:16.64 --> 38:20.64] -  Dan komt die terug in de maatschappij en gegaan die het over twee jaar.
+[38:20.64 --> 38:22.64] -  Dan vinden we mij eens op een station in Breedhaar.
+[38:22.64 --> 38:32.64] -  Maar gewoon weer in zijn verslavings gratuum van te voeren, en zo lang me hem daaruit kunnen houden, dan moet hij hier blijven werken.
+[38:32.64 --> 38:38.64] -  Maar zo, maar tot verhaal op zich vind ik eigenlijk ook gewoon iets mooier waar kracht en energie uitgaat.
+[38:38.64 --> 38:41.64] -  Ja, dat klopt wel, maar je moet wel rekenen.
+[38:41.64 --> 38:43.64] -  En dat blijft natuurlijk zo.
+[38:43.64 --> 38:48.64] -  We hebben gewoon te maken met de kracht zit meer bijvoorbeeld in de middap.
+[38:48.64 --> 38:56.64] -  Dan zie ik meer de kracht als bij... in de praktijk lopen mensen continu tegen Christian aan, hier op een bedrijf.
+[38:56.64 --> 39:00.64] -  Ja, dat is zo'n bestaak, ik ben altijd op tijd.
+[39:00.64 --> 39:03.64] -  En hij meldt ze eigenlijk op maandag morgen weer af.
+[39:03.64 --> 39:06.64] -  Of hij is wie de ziek, hij is wie een misselijk.
+[39:06.64 --> 39:12.64] -  En dan moet je er gebruiken, ja, hij houdt veel mensen hier, hij is hier ja rond voldoen.
+[39:12.64 --> 39:15.64] -  Ik ben nog een ziek in de jaar en hij roodt met de pednaa.
+[39:15.64 --> 39:18.64] -  Ja, oké, ik kan het vragen.
+[39:18.64 --> 39:22.64] -  Ik kun je het vragen nog een keer uitleggen aan die mensen, maar ja, dat blijft wel moeilijk.
+[39:22.64 --> 39:27.64] -  En dan weet je dat we een socialaaracht hebben als bedrijf en dan we daar verder in gaan, misschien al op toetver.
+[39:27.64 --> 39:30.64] -  Ja, dat is zo. Dat is mijn tekortkoming.
+[39:30.64 --> 39:31.64] -  Oké.
+[39:31.64 --> 39:34.64] -  Goedbeer die je niet nog was altijd eigenlijk.
+[39:34.64 --> 39:39.64] -  Ik heb eigenlijk verder geen vragen meer zo beter.
+[39:39.64 --> 39:45.64] -  Zijn er nog dingen die jij zichzelf zou willen opmerken die ik meenemen me onderzoek.
+[39:45.64 --> 39:48.64] -  Wat ver op plaatwerk is misschien of...
+[39:48.64 --> 39:51.64] -  of waar jij meer duidelijkheid over hebben kan hebben.
+[39:51.64 --> 39:57.64] -  Nee, ik denk wel, maar er is meer de opliding die je hebt.
+[39:57.64 --> 40:05.64] -  Ik denk dat heel vaak in de DHA-erg typische oplidingen...
+[40:05.64 --> 40:13.64] -  die zijn mijn inzien, net iets die vergeten soms de prakticeit in het verhaal.
+[40:13.64 --> 40:18.64] -  En daar heb je het weer die schrijven, de stext en zeggen is heel leuk.
+[40:18.64 --> 40:20.64] -  En bij ministerie is ook heel leuk.
+[40:20.64 --> 40:23.64] -  Maar het gaat werkelijk om de praktijk, wat het dat werken is.
+[40:23.64 --> 40:28.64] -  En dan zijn er veel meer dan er een veel grote netwerk die zorgt dat het wel of niet kan.
+[40:28.64 --> 40:37.64] -  Dat vind ik altijd wel een naadel van een teoretische opliding zoals we in Nederland kennen.
+[40:37.64 --> 40:39.64] -  Maar alle vakken het gaat niet over haar her.
+[40:39.64 --> 40:45.64] -  Dat gaat ook over sociale, dat gaat ook over economisch, dat gaat ook over teeld, dat gaat over alles.
+[40:45.64 --> 40:51.64] -  Alle oplidingen die wij hebben zijn steeds meer te veel teoretisch.
+[40:51.64 --> 40:59.64] -  Deoretica heb je nodig om de basisillementen van het element te leren kennen, bijvoorbeeld van haar er.
+[40:59.64 --> 41:03.64] -  Maar het funde mensen het veel diepig. Dat is vaak gewoon in de praktijkijken.
+[41:03.64 --> 41:10.64] -  Dat zijn zoveel haar vaartjes die je niet vangt op papier, maar die moet je zien voelen proeven raken.
+[41:10.64 --> 41:15.64] -  Ik moet goed opletten, want ik wil meenemen in mijn onderzoek.
+[41:15.64 --> 41:27.64] -  Dat is een hoge doel voor de hoge school.
+[41:27.64 --> 41:29.64] -  Ik ben af aanziddag vrij veel rond de tafel.
+[41:29.64 --> 41:37.64] -  Ja, het is wel een school die is daar zo ver mee in een vrij form van oplijden.
+[41:37.64 --> 41:46.64] -  Bij de kern is het wel een richting dat ze de nieuwe economie en duurzaamheid hebben.
+[41:46.64 --> 41:49.64] -  En dan duurzaamheid in breetsen, zin van begrip.
+[41:49.64 --> 41:52.64] -  En dan toch wel praktisch land.
+[41:52.64 --> 41:57.64] -  Ik vind dat wel ook daarvoor een keer in het toegraan en een keer luisteren voor de uur.
+[41:57.64 --> 42:07.64] -  U brupt die die diep te begrijpen, maar dat zijn wel dingen in de school in de voelen van de door.
+[42:07.64 --> 42:11.64] -  Of toen merk ik dat ze er zelfde zijn als de nikschooling.
+[42:11.64 --> 42:13.64] -  Je hebt een paar de vakken die je moet leren.
+[42:13.64 --> 42:16.64] -  En dan jeetje, maar we zijn er in 2023 er al wereld is veranderd.
+[42:16.64 --> 42:18.64] -  En af en op 100 jaar is er niks wat gesloten.
+[42:18.64 --> 42:19.64] -  Is gewoon niks.
+[42:19.64 --> 42:21.64] -  Wat zeuggestagniert is als ongelofelijk.
+[42:21.64 --> 42:24.64] -  Het is bij de nestjes stuk als al ze als kabinet.
+[42:24.64 --> 42:27.64] -  Ja, al bollige.
+[42:27.64 --> 42:30.64] -  En dat begin het wel verandering in het komende schooling.
+[42:30.64 --> 42:32.64] -  Langzaam.
+[42:32.64 --> 42:33.64] -  Heel langzaam.
+[42:33.64 --> 42:35.64] -  Maar iets is beter dan iets.
+[42:35.64 --> 42:36.64] -  Ja.
+[42:36.64 --> 42:38.64] -  Ik ben er echt heel erg bedankt voor je tijd.
+[42:38.64 --> 42:55.64] -  Ja, langzaam.

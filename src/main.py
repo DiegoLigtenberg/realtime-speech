@@ -123,7 +123,7 @@ if user_has_payed:
         if input_type == "YouTube":
             youtube_url = st.text_input("Youtube URL (shorter than 8 minutes)")       
         elif input_type == "File":
-            input_file = st.file_uploader("File", type=["mp3", "wav"])       
+            input_file = st.file_uploader("File", type=["mp3","wav","m4a"])       
 
         whisper_model = st.selectbox("Whisper model", options = [whisper for whisper in BagOfModels.get_model_names() if "whisper" in whisper and not "large" in whisper and not "medium"  in whisper] , index=1) 
         # whisper_model = st.selectbox("Whisper model", options = ["whisper_tiny"]) 

@@ -7,6 +7,7 @@ import os
 import glob
 import time
 import streamlit as st
+import subprocess
 
 class BagOfModels:
     '''model            ->  is a model from hugging face
@@ -107,7 +108,9 @@ class SoundToText():
         if self.source_type == "File": 
             audio = None
             if self.source.name.endswith('.wav'): audio = AudioSegment.from_wav(self.source)
-            elif self.source.name.endswith('.mp3'): audio = AudioSegment.from_mp3(self.source)                
+            elif self.source.name.endswith('.mp3'): audio = AudioSegment.from_mp3(self.source)  
+            elif self.source.name.endswith(".m4a"):   audio = AudioSegment.from_file(self.source,format='m4a'); audio.set_channels(1); audio.set_frame_rate(16000)    
+
             audio.export(f'output/audio{self.timestr}.wav', format='wav')
             self.audio_path = f"output/audio{self.timestr}.wav"   
         
