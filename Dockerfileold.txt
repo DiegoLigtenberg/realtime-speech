@@ -1,7 +1,7 @@
 # For more information, please refer to https://aka.ms/vscode-docker-python
 # FROM python:3.8
 # [27-10 16:00] Erik Willems
-FROM jrottenberg/ffmpeg:4.0-ubuntu
+FROM jrottenberg/ffmpeg:4.1-ubuntu
 
 
 #TODO pip install 
@@ -20,8 +20,7 @@ RUN apt install -y python3
 
 
 
-EXPOSE 80
-#8501
+EXPOSE 8501
 
 # Keeps Python from generating .pyc files in the container
 ENV PYTHONDONTWRITEBYTECODE=1
@@ -48,10 +47,6 @@ ADD . /src
 # RUN python3 -m pip install streamlit-webrtc
 
 RUN python3 -m pip install -r requirements.txt
-
-RUN mkdir ~/.streamlit
-RUN cp config.toml ~/.streamlit/config.toml
-RUN cp credentials.toml ~/.streamlit/credentials.toml
 
 ENTRYPOINT ["streamlit", "run"]
 
