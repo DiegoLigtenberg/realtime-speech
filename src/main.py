@@ -58,12 +58,13 @@ if user_has_payed == False:
     """ 
     )
     #  filename = "transcribe.txt"
-    if os.path.exists("transcribe.txt"):
-        os.remove("transcribe.txt" )
+
     text_input_container = st.empty()
     t = text_input_container.text_input("password")
 
     if  t == "XAIR#9373":
+        if os.path.exists("transcribe.txt"):
+            os.remove("transcribe.txt" )
         text_input_container.empty()
         st.info(t)
         user_has_payed = True
