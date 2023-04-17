@@ -43,6 +43,17 @@ if user_has_payed == False:
     - Transcription of interviews 
     - Transcription of online lectures (Youtube)
 
+    Input type:     Select whether you want to upload a Youtube video (URL),   
+                    or a manually uploaded audio file (.mp3 and .wav are supported).
+    Whisper model:  Larger models provide better accuracy but take longer to run.
+    Transcribe:     Once you made your decision, click transcribe once! 
+                    the app will run and will showcase the results when it is done.   
+                    NOTE THIS CAN TAKE UP TO 5-10 MINUTES FOR LARGE FILES    
+                    (20-40 minute audio files).
+    Download text:  Once the program is finished, you can click download text file 
+                    to generate a .txt file as transcribed text which can be saved   
+                    to your local computer.
+    
     """ 
     )
 
