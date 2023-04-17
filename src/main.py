@@ -114,7 +114,7 @@ if user_has_payed:
         elif input_type == "File":
             input_file = st.file_uploader("File", type=["mp3", "wav"])       
 
-        whisper_model = st.selectbox("Whisper model", options = [whisper for whisper in BagOfModels.get_model_names() if "whisper" in whisper and not "large" in whisper and not " medium"  in whisper] , index=1) 
+        whisper_model = st.selectbox("Whisper model", options = [whisper for whisper in BagOfModels.get_model_names() if "whisper" in whisper and not "large" in whisper and not "medium"  in whisper] , index=1) 
         # whisper_model = st.selectbox("Whisper model", options = ["whisper_tiny"]) 
         
         # # let the user select amout of words in the summary
