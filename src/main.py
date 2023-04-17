@@ -76,7 +76,7 @@ if user_has_payed == False:
             st.write(" ")
         col2, _ = st.columns(2, gap="large")
         col2.markdown("### Example Transcription of audio file")
-        audio_file = open("example/example_interview.wav",'rb')
+        audio_file = open("example/example_interview.mp3",'rb')
         audio_bytes = audio_file.read()
         st.audio(audio_bytes, format='audio/ogg')
 
