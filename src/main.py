@@ -29,31 +29,10 @@ def add_audio_configuration():
     if not os.path.exists(path):
         os.makedirs(path)
     
-
-
-
+    
 # Render input type selection on the sidebar & the form
 input_type = st.sidebar.selectbox("Input Type", ["YouTube", "File"])
 
-# Set up the Stripe API key
-# # Set up the Stripe API key
-# stripe.api_key = "sk_test_51MVOv5R8hJO9C6jw9bPYOYcjZJlzI2cCEgetlVbq9NjH4qa8PbypMwPMGRG1WNSdCtnPcP5NyuZHEgWQYxOfnZIk00DV2ewgjZ"
-# stripe.api_key = "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"
-
-# Create a form to collect the payment information
-# name = st.text_input("Name")
-# email = st.text_input("Email")
-# amount = 5 #st.number_input("Amount")
-
-# When the user submits the form, create a payment intent and generate a payment URL
-# if st.button("Submit"):
-#     intent = stripe.PaymentIntent.create(
-#         amount=int(amount * 100),
-#         currency="usd",
-#         metadata={"name": name, "email": email},
-#     )
-#     payment_url = intent["charges"]["data"][0]["payment_method_details"]["url"]
-#     st.write("Please complete your payment at", payment_url)
 user_has_payed = False
 if user_has_payed == False:
     text_input_container = st.empty()
