@@ -82,15 +82,14 @@ if user_has_payed == False:
     
     
     text_input_container = st.empty()
-    placeholder5.error(f"""We kindly ask for a [one-time payment of €10,-]({link}) to keep this app running (see link below).   
+    placeholder5.error(f"""We kindly ask for a [one-time payment]({link}) of €10,- to keep this app running (see link below).   
         Payment of the fee unlocks the passsword required to acces the Transcription App.   
         PLEASE ENSURE TO SAVE THE PASSWORD AS IT WILL ONLY BE VISIBLE ONCE AFTER PURCHASE!   
         ؜   
         Thank you for your understanding and support!""")
-    placeholder6.markdown("[Purchase Audio Transcription WebApp]", unsafe_allow_html=True)
 
     t = text_input_container.text_input("Password (available after purchase using link above, make sure to SAVE it)")
-    # st.write(t)
+    
     try:
         if  t == os.environ["PASS_1"] or t == os.environ["PASS_2"] or t == os.environ["PASS_3"] or t == os.environ["PASS_4"] or t == os.environ["PASS_5"]:
             text_input_container.empty()
@@ -118,6 +117,8 @@ if user_has_payed == False:
             if len(t)>0:        
                 st.error("""Incorrect password.    
                 get the password by paying a one-time fee to keep this app running""")
+                st.write("forgot password? email to:")
+                st.write("xairservice@gmail.com")
             for i in range(3):
                 st.write(" ")
             col2, _ = st.columns(2, gap="large")
