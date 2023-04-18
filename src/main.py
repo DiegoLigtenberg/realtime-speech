@@ -64,7 +64,7 @@ placeholder_im = st.empty()
 
 placeholder6 = st.empty()
 
-
+production = False
 if user_has_payed == False:
     placeholder.markdown("""We're excited to offer you a powerful tool that can transcribe audio data and YouTube videos using state-of-the-art machine learning algorithms.   
     With this app, you can easily transcribe audio files in popular formats such as .wav and .mp3, and also transcribe audio from non-copyrighted YouTube videos.   
@@ -96,8 +96,13 @@ if user_has_payed == False:
             text_input_container.empty()
             st.info(t)
             user_has_payed = True
-    except:
-        pass # in local mode
+            # production is only true if correct pass is filled in
+            production = True
+    except: 
+        # local = true       
+        pass
+        
+        
     
     if t == "GOX)?": # master key
         text_input_container.empty()
@@ -109,24 +114,25 @@ if user_has_payed == False:
         user_has_payed = True
 
     else:
-        if len(t)>0:        
-            st.error("""Incorrect password.    
-            get the password by paying a one-time fee to keep this app running""")
-        for i in range(3):
-            st.write(" ")
-        col2, _ = st.columns(2, gap="large")
-        col2.markdown("### Example Transcription of audio file")
-        with st.expander(""):
-            with open("./example/example_interview.mp3", "rb") as audio_file:
-                audio_bytes = audio_file.read()
-            st.audio(audio_bytes, format='audio/mpeg')
+        if not production:
+            if len(t)>0:        
+                st.error("""Incorrect password.    
+                get the password by paying a one-time fee to keep this app running""")
+            for i in range(3):
+                st.write(" ")
+            col2, _ = st.columns(2, gap="large")
+            col2.markdown("### Example Transcription of audio file")
+            with st.expander(""):
+                with open("./example/example_interview.mp3", "rb") as audio_file:
+                    audio_bytes = audio_file.read()
+                st.audio(audio_bytes, format='audio/mpeg')
 
-            with open("./example/transcribe_example.txt", "r") as f:
-                file_contents = f.readlines()
-                
-                col, _ = st.columns(2, gap="large")
-                for line in file_contents:
-                    col.markdown(line)
+                with open("./example/transcribe_example.txt", "r") as f:
+                    file_contents = f.readlines()
+                    
+                    col, _ = st.columns(2, gap="large")
+                    for line in file_contents:
+                        col.markdown(line)
             
 
 
