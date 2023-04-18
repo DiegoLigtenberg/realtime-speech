@@ -8,6 +8,8 @@ from datetime import datetime
 import numpy as np
 from encryption import caesar_decrypt
 from PIL import Image
+import random
+
 args = MODEL_PARSER
 
 dir = 'output'
@@ -19,6 +21,7 @@ st.set_page_config(
         "About": """This is a GUI for the Transcription App using Whisper as a Machine Learning backbone.""",
     },
     initial_sidebar_state="expanded",
+    
 )
 # st.set_theme("purple")
 
@@ -32,10 +35,25 @@ def add_audio_configuration():
     if not os.path.exists(path):
         os.makedirs(path)
     
+link_list = ["https://buy.stripe.com/9AQ7wwexT2U8gwg6op",
+             "https://buy.stripe.com/bIY7ww4XjfGUcg05km",
+             "https://buy.stripe.com/7sIg329dzbqE2Fq4gj",
+             "https://buy.stripe.com/fZe8AAfBX66k4NyeUY",
+             "https://buy.stripe.com/7sI9EE2PbfGU3Ju4gl"]
+im_list = ["example/qr_code_transparent1.png",
+           "example/qr_code_transparent2.png",
+           "example/qr_code_transparent3.png",
+           "example/qr_code_transparent4.png",
+           "example/qr_code_transparent5.png"
+           ]
+rng = random.randint(0,4) # included 0 and 4
+link = link_list[rng]
+im = im_list[rng]
+
+st.write(link,im)
 
 @st.cache
 def myfunction():
-    print("Im run")
     return False
 user_has_payed = myfunction()
 st.markdown("### Audio Transcription WebApp")
@@ -44,9 +62,11 @@ placeholder2 = st.empty()
 placeholder3 = st.empty()
 placeholder4 = st.empty()
 placeholder5 = st.empty()
-image = Image.open("example/qr_code_transparent.png")
-st.image(image,width=128, caption="",use_column_width=False)
+image = Image.open(im)
+placeholder_im = st.empty()
+
 placeholder6 = st.empty()
+
 
 if user_has_payed == False:
     placeholder.markdown("""We're excited to offer you a powerful tool that can transcribe audio data and YouTube videos using state-of-the-art machine learning algorithms.   
@@ -61,22 +81,32 @@ if user_has_payed == False:
 
     """
     )
-
+    placeholder_im.image(image,width=128, caption="",use_column_width=False)
+    
+    
     text_input_container = st.empty()
-    placeholder5.error("""We kindly ask for a small one-time payment of €10,- to keep this app running (see link below).   
+    placeholder5.error(f"""We kindly ask for a [one-time payment of €10,-]({link}) to keep this app running (see link below).   
         Payment of the fee unlocks the passsword required to acces the Transcription App.   
         PLEASE ENSURE TO SAVE THE PASSWORD AS IT WILL ONLY BE VISIBLE ONCE AFTER PURCHASE!   
         ؜   
-        Thankyou for your understanding and support!""")
-    placeholder6.markdown("[Purchase Audio Transcription WebApp](https://buy.stripe.com/9AQ7wwexT2U8gwg6op)", unsafe_allow_html=True)
+        Thank you for your understanding and support!""")
+    placeholder6.markdown("[Purchase Audio Transcription WebApp]", unsafe_allow_html=True)
 
     t = text_input_container.text_input("Password (available after purchase using link above, make sure to SAVE it)")
-    st.write(t)
-    if  t == os.environ["PASS_1"]:
+    # st.write(t)
+    try:
+        if  t == os.environ["PASS_1"] or t == os.environ["PASS_2"] or t == os.environ["PASS_3"] or t == os.environ["PASS_4"] or t == os.environ["PASS_5"]:
+            text_input_container.empty()
+            st.info(t)
+            user_has_payed = True
+    except:
+        pass # in local mode
+    
+    if t == "GOX)?": # master key
         text_input_container.empty()
         st.info(t)
         user_has_payed = True
-    elif t == "GOX)?":
+    elif t ==  caesar_decrypt("^GOX)?9=9",len(dir)):
         text_input_container.empty()
         st.info(t)
         user_has_payed = True
@@ -110,7 +140,7 @@ if user_has_payed:
     input_type = st.sidebar.selectbox("Input Type", ["YouTube", "File"])
     password = st.empty()
 
-
+    placeholder_im.empty()
     placeholder.empty()
     placeholder2.empty()
     placeholder5.empty()
