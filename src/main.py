@@ -41,6 +41,8 @@ placeholder = st.empty()
 placeholder2 = st.empty()
 placeholder3 = st.empty()
 placerholder4 = st.empty()
+placeholder5 = st.empty()
+placeholder6 = st.empty()
 if user_has_payed == False:
    
     
@@ -53,8 +55,8 @@ if user_has_payed == False:
     
     Usecases include: 
     - Transcription of (recorded) meetings
-    - Transcription of interviews 
-    - Transcription of online lectures (Youtube)
+    - Transcription of (school) interviews 
+    - Transcription of online lectures
 
     """
     )
@@ -62,17 +64,17 @@ if user_has_payed == False:
     #  filename = "transcribe.txt"
 
     text_input_container = st.empty()
-    t = text_input_container.text_input("password")
+    placeholder5.error("""We kindly ask for a small one-time payment of 10 euros to keep this app running (see link below).   
+        This one-time fee will help us maintain the app and provide ongoing support to our users.   
+        Thank you for your understanding and support!""")
+    placeholder6.markdown("[Purchase Transcription WebApp](https://buy.stripe.com/9AQ7wwexT2U8gwg6op) (use creditcard (pc) or apple/google pay (mobile))", unsafe_allow_html=True)
+    t = text_input_container.text_input("Password (available after purchase using link above)")
 
     if  t == "XAIR#9373":
         text_input_container.empty()
         st.info(t)
         user_has_payed = True
     else:
-        st.write("https://buy.stripe.com/9AQ7wwexT2U8gwg6op")
-        st.error("""We kindly ask for a small one-time payment of 10 euros to keep this app running (see link above).   
-        This one-time fee will help us maintain the app and provide ongoing support to our users.   
-        Thank you for your understanding and support!""")
 
         for i in range(3):
             st.write(" ")
