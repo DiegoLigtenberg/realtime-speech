@@ -40,6 +40,7 @@ st.markdown("### Transcription WebApp")
 placeholder = st.empty()
 placeholder2 = st.empty()
 placeholder3 = st.empty()
+placerholder4 = st.empty()
 if user_has_payed == False:
    
     
@@ -162,6 +163,7 @@ if user_has_payed:
 
     if "transcription" in st.session_state and transcribe:
         try:
+            placerholder4.markdown("<h2 style='text-align: center;'>Please wait till the program is finished (max 10 minutes)</h2>.",unsafe_allow_html=True)
             # enables whisper to transcribe
             st.session_state.transcription.whisper()
 
@@ -220,6 +222,7 @@ if user_has_payed:
             if not transcribe:
                 placeholder2.empty()
                 placeholder3.empty()
+                placerholder4.empty()
                 filename = "transcribe.txt"                
                 file_extension = ".txt"
                 with open(filename, "r") as f:
