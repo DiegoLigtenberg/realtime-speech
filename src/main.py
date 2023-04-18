@@ -107,7 +107,7 @@ if user_has_payed == False:
         text_input_container.empty()
         st.info(t)
         user_has_payed = True
-    elif t ==  caesar_decrypt("^GOX)?9=9",len(dir)):
+    elif t ==  caesar_decrypt("^GOX)?9=9",len(dir)) and not production:
         text_input_container.empty()
         st.info(t)
         user_has_payed = True
