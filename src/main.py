@@ -11,10 +11,10 @@ args = MODEL_PARSER
 dir = 'output'
 
 st.set_page_config(
-    page_title="TTS Applications | Incore Solutions",
+    page_title="TTS Applications | XairEU",
     layout="wide",
     menu_items={
-        "About": """This is a simple GUI for OpenAI's Whisper.""",
+        "About": """This is a GUI for the Transcription App using Whisper as a Machine Learning backbone.""",
     },
     initial_sidebar_state="expanded",
 )
@@ -36,11 +36,11 @@ def myfunction():
     print("Im run")
     return False
 user_has_payed = myfunction()
-st.markdown("### Transcription WebApp")
+st.markdown("### Audio Transcription WebApp")
 placeholder = st.empty()
 placeholder2 = st.empty()
 placeholder3 = st.empty()
-placerholder4 = st.empty()
+placeholder4 = st.empty()
 placeholder5 = st.empty()
 placeholder6 = st.empty()
 if user_has_payed == False:
@@ -64,11 +64,13 @@ if user_has_payed == False:
     #  filename = "transcribe.txt"
 
     text_input_container = st.empty()
-    placeholder5.error("""We kindly ask for a small one-time payment of 10 euros to keep this app running (see link below).   
-        This one-time fee will help us maintain the app and provide ongoing support to our users.   
-        Thank you for your understanding and support!""")
-    placeholder6.markdown("[Purchase Transcription WebApp](https://buy.stripe.com/9AQ7wwexT2U8gwg6op) (use creditcard (pc) or apple/google pay (mobile))", unsafe_allow_html=True)
-    t = text_input_container.text_input("Password (available after purchase using link above)")
+    placeholder5.error("""We kindly ask for a small one-time payment of €10,- to keep this app running (see link below).   
+        Payment of the fee unlocks the passsword required to acces the Transcription App.   
+        PLEASE ENSURE TO SAVE THE PASSWORD AS IT WILL ONLY BE VISIBLE ONCE AFTER PURCHASE!   
+        ؜   
+        Thankyou for your understanding and support!""")
+    placeholder6.markdown("[Purchase Audio Transcription WebApp](https://buy.stripe.com/9AQ7wwexT2U8gwg6op) (use creditcard on pc, or pay with apple/google-pay on mobile devices)", unsafe_allow_html=True)
+    t = text_input_container.text_input("Password (available after purchase using link above, make sure to SAVE it)")
 
     if  t == "XAIR#9373":
         text_input_container.empty()
@@ -106,6 +108,8 @@ if user_has_payed:
 
     placeholder.empty()
     placeholder2.empty()
+    placeholder5.empty()
+    placeholder6.empty()
     placeholder3.markdown("""**Explanation Controlls**؜
     
     
@@ -165,7 +169,7 @@ if user_has_payed:
 
     if "transcription" in st.session_state and transcribe:
         try:
-            placerholder4.markdown("<h2 style='text-align: center;'>Please wait till the program is finished (max 10 minutes)</h2>.",unsafe_allow_html=True)
+            placeholder4.markdown("<h2 style='text-align: center;'>Please wait till the program is finished (max 10 minutes)</h2>.",unsafe_allow_html=True)
             # enables whisper to transcribe
             st.session_state.transcription.whisper()
 
@@ -224,7 +228,7 @@ if user_has_payed:
             if not transcribe:
                 placeholder2.empty()
                 placeholder3.empty()
-                placerholder4.empty()
+                placeholder4.empty()
                 filename = "transcribe.txt"                
                 file_extension = ".txt"
                 with open(filename, "r") as f:
