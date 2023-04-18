@@ -39,6 +39,7 @@ user_has_payed = myfunction()
 st.markdown("### Transcription WebApp")
 placeholder = st.empty()
 placeholder2 = st.empty()
+placeholder3 = st.empty()
 if user_has_payed == False:
    
     
@@ -54,19 +55,9 @@ if user_has_payed == False:
     - Transcription of interviews 
     - Transcription of online lectures (Youtube)
 
-    Input type:     Select whether you want to upload a Youtube video (URL),   
-                    or a manually uploaded audio file (.mp3 and .wav are supported).
-    Whisper model:  Larger models provide better accuracy but take longer to run.
-    Transcribe:     Once you made your decision, click transcribe once! 
-                    the app will run and will showcase the results when it is done.   
-                    NOTE THIS CAN TAKE UP TO 5-10 MINUTES FOR LARGE FILES    
-                    (20-40 minute audio files).
-    Download text:  Once the program is finished, you can click download text file 
-                    to generate a .txt file as transcribed text which can be saved   
-                    to your local computer.
-    
-    """ 
+    """
     )
+
     #  filename = "transcribe.txt"
 
     text_input_container = st.empty()
@@ -108,8 +99,22 @@ if user_has_payed:
     # Render input type selection on the sidebar & the form
     input_type = st.sidebar.selectbox("Input Type", ["YouTube", "File"])
     password = st.empty()
+
+
     placeholder.empty()
+    placeholder2.empty()
+    placeholder3.markdown("""**Explanation Controlls**؜
     
+    
+    Input type\t:     Refers to the user's selected input for transcription, either a YouTube video URL or an uploaded audio file in .mp3 or .wav format.    
+    Whisper model\t:     The user-selected transcription model, with larger models providing higher accuracy but longer processing times.   
+    Transcribe\t:     The user-initiated transcription process, with automatic display of results upon completion.    
+                   \t      Processing time varies based on file length and selected model.
+    Download text\t:     User action to download the transcribed text as a .txt file after completion for local storage.
+    
+    """ 
+    )
+
     with st.sidebar.form("input_form"):
         if input_type == "YouTube":
             youtube_url = st.text_input("Youtube URL (shorter than 8 minutes)")       
@@ -210,9 +215,11 @@ if user_has_payed:
 
             # clear folder of audio files
             st.session_state.transcription.transcribed = True
+
+            # this triggers once!
             if not transcribe:
                 placeholder2.empty()
-                
+                placeholder3.empty()
                 filename = "transcribe.txt"                
                 file_extension = ".txt"
                 with open(filename, "r") as f:
