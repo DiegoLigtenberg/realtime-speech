@@ -7,6 +7,7 @@ from io import BytesIO
 from datetime import datetime
 import numpy as np
 from encryption import caesar_decrypt
+from PIL import Image
 args = MODEL_PARSER
 
 dir = 'output'
@@ -19,7 +20,7 @@ st.set_page_config(
     },
     initial_sidebar_state="expanded",
 )
-
+# st.set_theme("purple")
 
 def open_instructions():
     with open("instructions.md", "r") as f:
@@ -43,6 +44,8 @@ placeholder2 = st.empty()
 placeholder3 = st.empty()
 placeholder4 = st.empty()
 placeholder5 = st.empty()
+image = Image.open("example/qr_code_transparent.png")
+st.image(image,width=128, caption="",use_column_width=False)
 placeholder6 = st.empty()
 if user_has_payed == False:
    
@@ -70,7 +73,8 @@ if user_has_payed == False:
         PLEASE ENSURE TO SAVE THE PASSWORD AS IT WILL ONLY BE VISIBLE ONCE AFTER PURCHASE!   
         ؜   
         Thankyou for your understanding and support!""")
-    placeholder6.markdown("[Purchase Audio Transcription WebApp](https://buy.stripe.com/9AQ7wwexT2U8gwg6op) (use creditcard on pc, or pay with apple/google-pay on mobile devices)", unsafe_allow_html=True)
+    placeholder6.markdown("[Purchase Audio Transcription WebApp](https://buy.stripe.com/9AQ7wwexT2U8gwg6op)", unsafe_allow_html=True)
+
     t = text_input_container.text_input("Password (available after purchase using link above, make sure to SAVE it)")
     st.write(t)
     if  t == caesar_decrypt("^GOX)?9=9",len(dir)):
