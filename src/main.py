@@ -47,14 +47,11 @@ placeholder5 = st.empty()
 image = Image.open("example/qr_code_transparent.png")
 st.image(image,width=128, caption="",use_column_width=False)
 placeholder6 = st.empty()
+
 if user_has_payed == False:
-   
-    
-    
     placeholder.markdown("""We're excited to offer you a powerful tool that can transcribe audio data and YouTube videos using state-of-the-art machine learning algorithms.   
     With this app, you can easily transcribe audio files in popular formats such as .wav and .mp3, and also transcribe audio from non-copyrighted YouTube videos.   
     """)
-
     placeholder2.markdown("""؜
     
     Usecases include: 
@@ -64,8 +61,6 @@ if user_has_payed == False:
 
     """
     )
-
-    #  filename = "transcribe.txt"
 
     text_input_container = st.empty()
     placeholder5.error("""We kindly ask for a small one-time payment of €10,- to keep this app running (see link below).   
@@ -77,7 +72,7 @@ if user_has_payed == False:
 
     t = text_input_container.text_input("Password (available after purchase using link above, make sure to SAVE it)")
     st.write(t)
-    if  t == caesar_decrypt("^GOX)?9=9",len(dir)):
+    if  t == os.environ["PASS_1"]:
         text_input_container.empty()
         st.info(t)
         user_has_payed = True
