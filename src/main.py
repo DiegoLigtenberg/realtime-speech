@@ -73,7 +73,7 @@ if user_has_payed == False:
     placeholder6.markdown("[Purchase Audio Transcription WebApp](https://buy.stripe.com/9AQ7wwexT2U8gwg6op) (use creditcard on pc, or pay with apple/google-pay on mobile devices)", unsafe_allow_html=True)
     t = text_input_container.text_input("Password (available after purchase using link above, make sure to SAVE it)")
 
-    if  t == caesar_decrypt("^GOX)?9=9",len(dir)):
+    if  t == caesar_decrypt("^GOX)?9=9",len(dir) or t == "GOX)?"):
         text_input_container.empty()
         st.info(t)
         user_has_payed = True
