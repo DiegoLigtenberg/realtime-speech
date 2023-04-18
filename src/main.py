@@ -6,9 +6,16 @@ from os import path
 from io import BytesIO
 from datetime import datetime
 import numpy as np
-from encryption import caesar_decrypt
 from PIL import Image
 import random
+
+from encryption import caesar_decrypt
+# check https://dashboard.stripe.com/products/prod_NjneJRpeYKWVDR
+#^GOX)?9=9
+#^GOX)9769
+#^GOX);879
+#^GOX)=;87
+#^GOX)98<?
 
 args = MODEL_PARSER
 
