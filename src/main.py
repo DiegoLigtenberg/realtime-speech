@@ -23,7 +23,6 @@ st.set_page_config(
     initial_sidebar_state="expanded",
     
 )
-# st.set_theme("purple")
 
 def open_instructions():
     with open("instructions.md", "r") as f:
@@ -49,8 +48,6 @@ im_list = ["example/qr_code_transparent1.png",
 rng = random.randint(0,4) # included 0 and 4
 link = link_list[rng]
 im = im_list[rng]
-
-st.write(link,im)
 
 @st.cache
 def myfunction():
