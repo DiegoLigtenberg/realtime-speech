@@ -6,6 +6,7 @@ from os import path
 from io import BytesIO
 from datetime import datetime
 import numpy as np
+from encryption import caesar_decrypt
 args = MODEL_PARSER
 
 dir = 'output'
@@ -72,12 +73,14 @@ if user_has_payed == False:
     placeholder6.markdown("[Purchase Audio Transcription WebApp](https://buy.stripe.com/9AQ7wwexT2U8gwg6op) (use creditcard on pc, or pay with apple/google-pay on mobile devices)", unsafe_allow_html=True)
     t = text_input_container.text_input("Password (available after purchase using link above, make sure to SAVE it)")
 
-    if  t == "XAIR#9373":
+    if  t == caesar_decrypt("^GOX)?9=9",len(dir)):
         text_input_container.empty()
         st.info(t)
         user_has_payed = True
     else:
-
+        if len(t)>0:        
+            st.error("""Incorrect password.    
+            get the password by paying a one-time fee to keep this app running""")
         for i in range(3):
             st.write(" ")
         col2, _ = st.columns(2, gap="large")
@@ -94,9 +97,7 @@ if user_has_payed == False:
                 for line in file_contents:
                     col.markdown(line)
             
-            if len(t)>0:        
-                st.error("""Incorrect password.    
-                get the password by paying a one-time fee to keep this app running""")
+
 
 
 
