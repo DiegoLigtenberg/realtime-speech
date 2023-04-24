@@ -2,7 +2,6 @@ import streamlit as st
 from models import BagOfModels, SoundToText, TextToSummary
 from settings import MODEL_PARSER
 import os.path
-from os import path
 from io import BytesIO
 from datetime import datetime
 import numpy as np
