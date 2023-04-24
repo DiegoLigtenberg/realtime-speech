@@ -11,3 +11,8 @@ def caesar_decrypt(text, shift):
 #^GOX);879
 #^GOX)=;87
 #^GOX)98<?
+
+a = ["^GOX)?9=9","^GOX)9769","^GOX);879","^GOX)=;87","^GOX)98<?"]
+for i in (a):
+    pass
+    # print(caesar_decrypt(i,6))
