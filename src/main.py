@@ -55,7 +55,7 @@ rng = random.randint(0,4) # included 0 and 4
 link = link_list[rng]
 im = im_list[rng]
 
-@st.cache_data
+# @st.cache_data
 def myfunction():
     return False
 user_has_payed = myfunction()
