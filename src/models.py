@@ -66,7 +66,7 @@ class Model:
         self._year = year
         self._description = description
     
-    @st.cache
+    @st.cache_data
     def load_cached_whisper(self):
         model = whisper.load_model(self.model_name.split("_")[1]) #tiny - base - medium 
         return model
